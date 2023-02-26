@@ -1,0 +1,7 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
