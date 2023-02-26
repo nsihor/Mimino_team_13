@@ -3,7 +3,6 @@
     text-transform: uppercase;
     border: 0.8px solid var(--dark);
     border-radius: 32px;
-    color: var(--dark);
     background-color: transparent;
 }
 .btn_light {
