@@ -65,10 +65,6 @@ img {
   color: #000000;
 }
 
-.location-address {
-}
-.contacts {
-}
 .contacts-text {
   margin-top: 28px;
   font-weight: 500;
@@ -80,8 +76,7 @@ img {
 .contacts-list {
   margin-top: 12px;
 }
-.contacts-item {
-}
+
 .contacts-link {
   font-size: 14px;
   line-height: 1.29;
@@ -89,7 +84,7 @@ img {
   color: #121212;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
   .location-address {
     display: flex;
     justify-content: space-between;
@@ -99,9 +94,17 @@ img {
     font-size: 68px;
     margin-bottom: 40px;
   }
+  .container {
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 769px) {
+
+  .container {
+    width: 100%;
+    max-width: 1440px;
+  }
   .container-wrap {
     display: flex;
   }
