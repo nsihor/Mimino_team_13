@@ -1,0 +1,56 @@
+<!---------- Location & contacts ----------->
+
+<section class="location">
+  <div class="container container-wrap">
+    <div class="container-item">
+      <h2 class="location-title">LOCATION</h2>
+    </div>
+    <div class="container-item">
+      <picture class="location-map">
+        <source
+          media="(min-width: 375px) and (max-width: 768px)"
+          srcset="./src/img/location/map-tab-x1.jpg 1x, ./src/img/location/map-tab-x2.jpg 2x"
+        />
+        <source
+          media="(min-width: 769px)"
+          srcset="./src/img/location/map-desk-x1.jpg 1x, ./src/img/location/map-desk-x2.jpg 2x"
+        />
+        <img
+          src="./src/img/location/map-mob-x1"
+          alt="We are on the map"
+          srcset="./src/img/location/map-mob-x1.jpg 1x, ./src/img/location/map-mob-x2.jpg 2x"
+          class="location-map"
+        />
+      </picture>
+    </div>
+    <!-- <img class="location-map" src="./images/map-mob-x1.jpg" alt="We are on the map"
+    srcset="map-tab-x1.jpg 200w, 
+    map-desck-x1.jpg 600w"  sizes="(max-width:800px) 30vw,  600px"> -->
+    <div class="container-item">
+      <address class="location-address">
+        <div class="adress">
+          <p class="location-address-text">
+            UKRAINE,
+            POLTAVA,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ST. MARSHAL BIRYUZOV, 15
+          </p>
+        </div>
+        <div class="contacts">
+          <p class="contacts-text">CALL US:</p>
+          <ul class="list contacts-list">
+            <li class="contacts-item">
+              <a href="tel:+380955559533" class="line contacts-link"
+                >(095) 555 95 33</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+380668491089" class="line contacts-link"
+                >(066) 849 10 89</a
+              >
+            </li>
+          </ul>
+        </div>
+      </address>
+    </div>
+  </div>
+</section>
