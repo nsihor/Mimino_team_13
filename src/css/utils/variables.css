@@ -4,7 +4,7 @@
   --light: #f7f7f7;
   --primery-text: #000000;
   --secondary-text: #d8d7d7;
-  --second-light: #f6f6f6;
+  --second_light: #f6f6f6;
 }
 .visualy_hidden {
   position: absolute;

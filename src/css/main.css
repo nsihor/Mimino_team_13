@@ -8,9 +8,6 @@
 /* Components */
 @import url('./components/container.css');
 
-/* BUTTONS */
-@import url('./components/button.css');
-
 /* Layout */
 @import url('./layout/about.css');
 @import url('./layout/footer.css');
