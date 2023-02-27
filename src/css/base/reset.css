@@ -19,6 +19,7 @@ a {
   color: currentColor;
   text-decoration: none;
   font-style: normal;
+  display: inline-block;
 }
 
 button {

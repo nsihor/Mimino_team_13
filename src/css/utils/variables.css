@@ -1,20 +1,20 @@
 /* Змінні, плейсхолдери... */
 :root {
-  --dark: #121212;
-  --light: #f7f7f7;
-  --primery-text: #000000;
-  --secondary-text: #d8d7d7;
-  --second_light: #f6f6f6;
+    --dark: #121212;
+    --light:  #F7F7F7;
+    --primary-text: #000000;
+    --secondary-text: #d8d7d7;
+    --second-light: #f6f6f6; 
 }
 .visualy_hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }

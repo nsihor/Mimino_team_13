@@ -1,0 +1,15 @@
+.btn_dark {
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border: 0.8px solid var(--dark);
+    border-radius: 32px;
+    background-color: transparent;
+}
+.btn_light {
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border: 0.8px solid var(--second_light);
+    border-radius: 32px;
+    color: var(--second_light);
+    background-color: transparent;
+}
