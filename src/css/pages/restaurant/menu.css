@@ -142,7 +142,10 @@
     padding-bottom: 80px;
     padding-top: 80px;
   }
-
+  .wrap-menu {
+    padding-left: 127px;
+    padding-right: 126px;
+  }
   .menu-title {
     margin-bottom: 64px;
 
