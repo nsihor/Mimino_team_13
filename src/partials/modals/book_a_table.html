@@ -1,0 +1,102 @@
+<section class="section-backdrop" data-modal="book-table">
+  <div class="modal-win">
+    <h2 class="modal-title">BOOK <span class="italic">A TABLE</span></h2>
+    <button
+      type="submit"
+      class="close-modal js-modal-close"
+      data-modal="book-table"
+    >
+      <svg class="modal-icon-close js-modal-close" width="32px" height="32px">
+        <use href="../../img/symbol-defs.svg#icon-x-1"></use>
+      </svg>
+    </button>
+    <form class="modal-form-table">
+      <span class="wrap-modal">
+        <span class="wrap-modal-name-number">
+          <label class="modal-label modal-label-name">
+            <span class="modal-wrap">
+              <input
+                placeholder="Your name"
+                type="text"
+                name="client-name"
+                class="modal-input"
+                pattern="[A-Za-zА-Яа-яЁё\s?]{2,20}"
+                title="2 to 20 text characters"
+                autocomplete="off"
+              />
+            </span>
+            <span class="modal-label-text">Who should book a table for?</span>
+          </label>
+
+          <label for="number-of-guests" class="modal-label modal-label-number">
+            <span class="modal-wrap modal-wrap-number">
+              <span class="modal-label-title">number of people</span>
+              <span class="wrap-svg">
+                <svg class="modal-icon-fake" width="20px" height="20px">
+                  <use
+                    class="modal-icon-fake"
+                    href="../../img/symbol-defs.svg#icon-Icon-4-1"
+                  ></use>
+                </svg>
+              </span>
+
+              <select
+                name="number-of-guests"
+                id="number-of-guests"
+                class="modal-input modal-input-number"
+              >
+                <option selected disabled></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="more">more</option>
+              </select>
+            </span>
+          </label>
+        </span>
+        <span class="wrap-modal-dat-tel">
+          <label for="date-to-book" class="modal-label modal-label-book">
+            <span class="modal-wrap">
+              <span class="wrap-svg">
+                <svg class="modal-icon-fake" width="20px" height="10px">
+                  <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+                </svg>
+              </span>
+              <select name="date-to-book" id="date-to-book" class="modal-input">
+                <option value="Today">Today</option>
+                <option value="Tomorrow">Tomorrow</option>
+              </select>
+            </span>
+            <span class="modal-label-text">What date to book?</span>
+          </label>
+
+          <label class="modal-label modal-label-tel">
+            <span class="modal-wrap">
+              <input
+                placeholder="+ 38 ()"
+                type="tel"
+                name="client-tel"
+                class="modal-input"
+                pattern="\+38\s?[\(][0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+                title="+38(ххх)ххх-хх-хх"
+                autocomplete="off"
+                required
+              />
+            </span>
+            <span class="modal-label-text">Phone number</span>
+          </label>
+        </span>
+      </span>
+      <button
+        type="submit"
+        class="button-reserv btn_light js-modal-close"
+        data-modal="book-table"
+      >
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</section>
