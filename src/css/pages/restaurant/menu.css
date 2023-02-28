@@ -103,7 +103,7 @@
   color: var(--light);
 }
 
-.btn_light {
+.btn-light {
   /*letter-spacing: -0.02em;
   text-transform: uppercase;
   border: 0.8px solid var(--light);
@@ -111,7 +111,7 @@
   background-color: transparent;
   color: var(--light);*/
 
-  padding: 8px 24px;
+  padding: 8px 18px;
   /*min-width: 128px;*/
 
   font-family: 'DM Sans';
@@ -119,9 +119,15 @@
   font-size: 14px;
   line-height: 1.71;
 }
+.btn-light:hover,
+.btn-light:focus {
+  color: var(--primery-black);
+  background-color: #fff;
+}
+
 /*---------------------до 767 рх----------------*/
 @media screen and (max-width: 767px) {
-  .btn_light {
+  .btn-light {
     display: block;
 
     margin-left: auto;
@@ -178,6 +184,10 @@
     font-size: 18px;
     line-height: 1.33;
   }
+
+  .btn-light {
+    padding: 8px 24px;
+  }
 }
 /*=====================/TABLET/==================*/
 
@@ -222,6 +232,11 @@
     padding-top: 100px;
   }
 
+  .wrap-menu {
+    padding-left: 168px;
+    padding-right: 168px;
+  }
+
   .container-menu {
     display: flex;
     flex-wrap: wrap;
@@ -248,11 +263,14 @@
   .menu-desserts {
     margin-bottom: 28px;
   }
-  .btn_light {
+  .btn-light {
     font-size: 18px;
     line-height: 1.33;
   }
   .switch-slide {
     display: none;
+  }
+  .btn-light {
+    padding: 9px 24px;
   }
 }
