@@ -1,25 +1,53 @@
+:root {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #121212;
+    background-color: #D8D8D8;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+    --dark: #121212;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.room-hero-title span {
+    font-style: italic;
+}
+
+.hero-descr span {
+    font-style: italic;
+}
+
 .hero-buttons {
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-.view-a-menu-btn {
-    text-decoration: none;
-    display: inline-block;
-    color: #121212;
-}
-
-.book-a-room-btn, 
-.view-prices-btn,
-.book-a-table-btn,
-.view-a-menu-btn {
+.btn_dark {
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
-    border: 0.8px solid #121212;
+    border: 0.8px solid var(--dark);
     border-radius: 32px;
     background-color: transparent;
+
+    text-decoration: none;
+    display: inline-block;
+    color: var(--dark);
 }
 
 .hero-descr {
@@ -27,12 +55,56 @@
     line-height: 18px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    padding: 0;
+    max-width: 338px;
 }
 
-@media screen and (min-width: 375px) {
+.hero-descr p {
+    margin: 0;
+}
+
+.owl-nav {
+    position: relative;
+}
+
+.owl-next,
+.owl-prev {
+    position: absolute;
+    
+    margin: 0 !important;
+    width: 36px;
+    height: 36px;
+    z-index: 10;
+}
+
+.owl-next {
+    right: 32px;
+
+    background: url(../img/hero-images/carousel-btn-right.svg) no-repeat center !important;
+}
+
+.owl-prev {
+    right: 100px;
+
+    background: url(../img/hero-images/carousel-btn-left.svg) no-repeat center !important;
+}
+
+.owl-prev span, .owl-next span {
+    display: none;
+}
+
+.owl-stage {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+@media screen and (max-width:767px) {
     .hero {
-        padding-top: 40px;
         padding-left: 20px;
+    }
+    
+    .hero-nav {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
     .hotel-hero-title,
@@ -49,13 +121,397 @@
         margin-top: 24px;
     }
 
-    .book-a-room-btn, 
-    .view-prices-btn,
-    .book-a-table-btn,
-    .view-a-menu-btn {
+    .btn_dark {
         padding: 8px 18px;
         font-size: 14px;
         line-height: 18px;
     }
+    .hero-descr {
+        margin-top: 100px;
+    }
 
+    .item {
+        width: 250px;
+        height: 429px;
+    }
+
+    .hotel-hero-slider {
+        height: 429px;
+
+        position: relative;
+    }
+
+    .owl-stage-outer {
+        right: -2px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 35px !important;
+    }
+
+    .hero-buttons {
+        margin-bottom: 40px;
+    }
+
+    .owl-item {
+        width: 250px !important;
+    }
+
+    /* hotel slider */
+
+    .hotel-hero-slider .item-left {
+        background: url(../img/hero-images/hotel-hero-left-250.jpg) center no-repeat;
+    }
+
+    .hotel-hero-slider .item-mid {
+        background: url(../img/hero-images/hotel-hero-mid-250.jpg) center no-repeat;
+    }
+
+    .hotel-hero-slider .item-right {
+        background: url(../img/hero-images/hotel-hero-right-250.jpg) center no-repeat;
+    }
+
+    /* restaurant slider */
+
+    .rest-hero-slider .item-first {
+        background: url(../img/hero-images/rest-hero-1-250.jpg);
+    }
+
+    .rest-hero-slider .item-second {
+        background: url(../img/hero-images/rest-hero-2-250.jpg);
+    }
+
+    .rest-hero-slider .item-third {
+        background: url(../img/hero-images/rest-hero-3-250.jpg);
+    }
+
+    .rest-hero-slider .item-fourth {
+        background: url(../img/hero-images/rest-hero-4-250.jpg);
+    }
+
+    .rest-hero-slider .item-fifth {
+        background: url(../img/hero-images/rest-hero-5-250.jpg);
+    }
+
+    .rest-hero-slider .item-sixth {
+        background: url(../img/hero-images/rest-hero-6-250.jpg);
+    }
+
+    /* room slider */
+
+    .room-hero-slider .item-first {
+        background: url(../img/hero-images/room-hero-1-250.jpg);
+    }
+
+    .room-hero-slider .item-second {
+        background: url(../img/hero-images/room-hero-2-250.jpg);
+    }
+
+    .room-hero-slider .item-third {
+        background: url(../img/hero-images/room-hero-3-250.jpg);
+    }
+
+    .room-hero-slider .item-fourth {
+        background: url(../img/hero-images/room-hero-4-250.jpg);
+    }
+
+    .room-hero-slider .item-fifth {
+        background: url(../img/hero-images/room-hero-5-250.jpg);
+    }
+
+    .room-hero-slider .item-sixth {
+        background: url(../img/hero-images/room-hero-6-250.jpg);
+    }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
+screen and (max-width: 767px) and (min-resolution: 2) {
+    
+    /* hotel slider */
+
+    .hotel-hero-slider .item-left {
+        background: url(../img/hero-images/hotel-hero-left-500.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-mid {
+        background: url(../img/hero-images/hotel-hero-mid-500.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-right {
+        background: url(../img/hero-images/hotel-hero-right-500.jpg) center center/cover;
+    }
+
+    /* restaurant slider */
+
+    .rest-hero-slider .item-first {
+        background: url(../img/hero-images/rest-hero-1-500.jpg);
+    }
+
+    .rest-hero-slider .item-second {
+        background: url(../img/hero-images/rest-hero-2-500.jpg);
+    }
+
+    .rest-hero-slider .item-third {
+        background: url(../img/hero-images/rest-hero-3-500.jpg);
+    }
+
+    .rest-hero-slider .item-fourth {
+        background: url(../img/hero-images/rest-hero-4-500.jpg);
+    }
+
+    .rest-hero-slider .item-fifth {
+        background: url(../img/hero-images/rest-hero-5-500.jpg);
+    }
+
+    .rest-hero-slider .item-sixth {
+        background: url(../img/hero-images/rest-hero-6-500.jpg);
+    }
+
+    /* room slider */
+
+    .room-hero-slider .item-first {
+        background: url(../img/hero-images/room-hero-1-500.jpg);
+    }
+
+    .room-hero-slider .item-second {
+        background: url(../img/hero-images/room-hero-2-500.jpg);
+    }
+
+    .room-hero-slider .item-third {
+        background: url(../img/hero-images/room-hero-3-500.jpg);
+    }
+
+    .room-hero-slider .item-fourth {
+        background: url(../img/hero-images/room-hero-4-500.jpg);
+    }
+
+    .room-hero-slider .item-fifth {
+        background: url(../img/hero-images/room-hero-5-500.jpg);
+    }
+
+    .room-hero-slider .item-sixth {
+        background: url(../img/hero-images/room-hero-6-500.jpg);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero {
+        padding-left: 36px;
+    }
+    
+    .hero-nav {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .hotel-hero-title,
+    .rest-hero-title,
+    .room-hero-title {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .hero-buttons {
+        gap: 14px;
+        margin-top: 32px;
+        margin-bottom: 54px;
+    }
+
+    .hero-descr {
+        margin-bottom: 40px;
+    }
+
+    .btn_dark {
+        padding: 8px 24px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 40px !important;
+    }
+
+    .owl-item {
+        width: 450px !important;
+    }
+
+    .item {
+        width: 436px;
+        height: 548px;
+    }
+
+    .owl-stage-outer {
+        height: 548px;
+    }
+
+    /* hotel slider */
+
+    .hotel-hero-slider .item-left {
+        background: url(../img/hero-images/hotel-hero-img-left.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-mid {
+        background: url(../img/hero-images/hotel-hero-img-mid.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-right {
+        background: url(../img/hero-images/hotel-hero-img-right.jpg) center center/cover;
+    }
+
+    /* restaurant slider */
+
+    .rest-hero-slider .item-first {
+        background: url(../img/hero-images/rest-hero-img-1.jpg);
+    }
+
+    .rest-hero-slider .item-second {
+        background: url(../img/hero-images/rest-hero-img-2.jpg);
+    }
+
+    .rest-hero-slider .item-third {
+        background: url(../img/hero-images/rest-hero-img-3.jpg);
+    }
+
+    .rest-hero-slider .item-fourth {
+        background: url(../img/hero-images/rest-hero-img-4.jpg);
+    }
+
+    .rest-hero-slider .item-fifth {
+        background: url(../img/hero-images/rest-hero-img-5.jpg);
+    }
+
+    .rest-hero-slider .item-sixth {
+        background: url(../img/hero-images/rest-hero-img-6.jpg);
+    }
+
+    /* room slider */
+
+    .room-hero-slider .item-first {
+        background: url(../img/hero-images/room-hero-img-1.jpg);
+    }
+
+    .room-hero-slider .item-second {
+        background: url(../img/hero-images/room-hero-img-2.jpg);
+    }
+
+    .room-hero-slider .item-third {
+        background: url(../img/hero-images/room-hero-img-3.jpg);
+    }
+
+    .room-hero-slider .item-fourth {
+        background: url(../img/hero-images/room-hero-img-4.jpg);
+    }
+
+    .room-hero-slider .item-fifth {
+        background: url(../img/hero-images/room-hero-img-5.jpg);
+    }
+
+    .room-hero-slider .item-sixth {
+        background: url(../img/hero-images/room-hero-img-6.jpg);
+    }
+
+}
+
+@media screen and (min-width:768px) and (min-device-pixel-ratio: 2),
+    screen and (min-width:768px) and (min-resolution: 2) {
+        
+        /* hotel slider */
+        
+    .hotel-hero-slider .item-left{
+        background: url(../img/hero-images/hotel-hero-img-left-2x.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-mid {
+        background: url(../img/hero-images/hotel-hero-img-mid-2x.jpg) center center/cover;
+    }
+
+    .hotel-hero-slider .item-right {
+        background: url(../img/hero-images/hotel-hero-img-right-2x.jpg) center center/cover;
+    }
+
+        /* restaurant slider */
+
+    .rest-hero-slider .item-first {
+        background: url(../img/hero-images/rest-hero-img-1-2x.jpg);
+    }
+
+    .rest-hero-slider .item-second {
+        background: url(../img/hero-images/rest-hero-img-2-2x.jpg);
+    }
+
+    .rest-hero-slider .item-third {
+        background: url(../img/hero-images/rest-hero-img-3-2x.jpg);
+    }
+
+    .rest-hero-slider .item-fourth {
+        background: url(../img/hero-images/rest-hero-img-4-2x.jpg);
+    }
+
+    .rest-hero-slider .item-fifth {
+        background: url(../img/hero-images/rest-hero-img-5-2x.jpg);
+    }
+
+    .rest-hero-slider .item-sixth {
+        background: url(../img/hero-images/rest-hero-img-6-2x.jpg);
+    }
+
+    /* room slider */
+
+    .room-hero-slider .item-first {
+        background: url(../img/hero-images/room-hero-img-1-2x.jpg);
+    }
+
+    .room-hero-slider .item-second {
+        background: url(../img/hero-images/room-hero-img-2-2x.jpg);
+    }
+
+    .room-hero-slider .item-third {
+        background: url(../img/hero-images/room-hero-img-3-2x.jpg);
+    }
+
+    .room-hero-slider .item-fourth {
+        background: url(../img/hero-images/room-hero-img-4-2x.jpg);
+    }
+
+    .room-hero-slider .item-fifth {
+        background: url(../img/hero-images/room-hero-img-5-2x.jpg);
+    }
+
+    .room-hero-slider .item-sixth {
+        background: url(../img/hero-images/room-hero-img-6-2x.jpg);
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .hotel-hero-title,
+    .rest-hero-title,
+    .room-hero-title {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    
+    .hero-nav {
+        margin-top: 204px;
+        margin-bottom: 204px;
+    }
+
+    .hero {
+        position: relative;
+        height: 692px;
+    }
+
+    .hero-descr {
+        position: absolute;
+        top: -572px;
+        left: 32px;
+    }
+
+    .owl-carousel {
+        position: absolute !important;
+        top: -108px;
+
+        width: 50% !important;
+        left: 50%;
+        height: 548px;
+    }
 }
