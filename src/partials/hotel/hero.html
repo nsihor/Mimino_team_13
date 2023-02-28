@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hero</title>
-  <link rel="stylesheet" href="/src/css/layout/hero.css">
-</head>
-<body>
-  <section class="hero section">
-    <div>
-      <h1 class="hotel-hero-title">HOTEL</h1>
-      <ul class="hero-buttons">
-        <li><button type="button" class="book-a-room-btn">BOOK A ROOM</button></li>
-        <li><button type="button" class="view-prices-btn">VIEW PRICES</button></li>
-      </ul>
-    </div>
-    <div class="hero-slider">
-      <img srcset="./img/hero-images/hotel-hero-img-left.jpg 1x, 
-      ./img/hero-images/hotel-hero-img-left-2x.jpg 2x"
-      src="./img/hero-images/hotel-hero-img-left.jpg" alt="hotel">
-      <img srcset="./img/hero-images/hotel-hero-img-mid.jpg 1x,
-      ./img/hero-images/hotel-hero-img-mid-2x.jpg 2x"
-      src="./img/hero-images/hotel-hero-img-mid.jpg" alt="hotel">
-      <img srcset="./img/hero-images/hotel-hero-img-right.jpg 1x, 
-      ./img/hero-images/hotel-hero-img-right-2x.jpg 2x"
-      src="./img/hero-images/hotel-hero-img-right.jpg" alt="">
-    </div>
-    <div class="hero-descr">
-      <p>Whether you're in the mood for a hearty breakfast,
-         a light lunch, or a romantic dinner, 
-         our menu has something for everyone.
-      </p>
-    </div>
-  </section>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hero</title>
+    <link rel="stylesheet" href="./css/hero.css"/>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  </head>
+  <body>
+    <section class="hero hotel-hero">
+      <div class="hero-nav">
+        <h1 class="hotel-hero-title">HOTEL</h1>
+        <ul class="hero-buttons">
+          <li><button type="button" class="btn_dark">BOOK A ROOM</button></li>
+          <li><button type="button" class="btn_dark">VIEW PRICES</button></li>
+        </ul>
+      </div>
+      <div class="hotel-hero-slider owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+          <div class="owl-stage">
+            <div class="owl-item"><div class="item-left item" width="250"></div></div>
+            <div class="owl-item"><div class="item-mid item"></div></div>
+            <div class="owl-item"><div class="item-right item"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-descr">
+        <p>Whether you're in the mood for a hearty breakfast,
+           a light lunch, or a <span>romantic dinner</span>, 
+           our menu has something for everyone.
+        </p>
+      </div>
+    </section>
