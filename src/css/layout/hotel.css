@@ -1,17 +1,15 @@
 @media screen and (min-width: 0px) {
     .container {
     width: 375px;
-    }  
-    .container {
     padding: 0 20px;
     margin: 0 auto;
-    }
+    }  
+    
     .section-main-hotel{
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: rgba(18, 18, 18, 1)
     }
-    
     
     .hotel{
     color: rgba(246, 246, 246, 1);
@@ -28,9 +26,11 @@
      margin-top: 32px;
      text-transform: uppercase;
     }
-    .hotel-img{
+    .section-pictures{
     margin-top: 33px;
-    
+    }
+    .pictures-hotel-tab{
+    display: none;
     }
     .hotel-button{
     display: flex;
@@ -93,6 +93,9 @@
     margin-right: 100px;
     text-align: justify;
     }
+    .pictures-hotel-tab{
+        display: block;}
+
     .hotel-button-desk{
         display: none;
     }
