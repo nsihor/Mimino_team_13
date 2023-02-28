@@ -1,0 +1,61 @@
+.hero-buttons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.view-a-menu-btn {
+    text-decoration: none;
+    display: inline-block;
+    color: #121212;
+}
+
+.book-a-room-btn, 
+.view-prices-btn,
+.book-a-table-btn,
+.view-a-menu-btn {
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    background-color: transparent;
+}
+
+.hero-descr {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+    .hero {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    
+    .hotel-hero-title,
+    .rest-hero-title,
+    .room-hero-title {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+    }
+
+    .hero-buttons {
+        gap: 12px;
+        margin-top: 24px;
+    }
+
+    .book-a-room-btn, 
+    .view-prices-btn,
+    .book-a-table-btn,
+    .view-a-menu-btn {
+        padding: 8px 18px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}
