@@ -34,6 +34,6 @@
 @import url('./pages/room/hero.css');
 
 /* Modals */
-@import url('./modals/book_a_room.html');
-@import url('./modals/book_a_table.html');
-@import url('./modals/prices_per_room.html');
+@import url('./modals/book_a_room.css');
+@import url('./modals/book_a_table.css');
+@import url('./modals/prices_per_room.css');
