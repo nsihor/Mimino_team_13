@@ -12,7 +12,7 @@
     font-family: inherit;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    border: 0.8px solid var(--second_light);
+    border: 0.8px solid var(--second-light);
     border-radius: 32px;
     color: var(--second_light);
     background-color: transparent;
