@@ -39,10 +39,8 @@ z-index: 10;
 
 .slide-container {
 object-fit:cover;
-width: 335px;
-height: 400px; 
-margin-right: 50px;
-margin-left: 50px;
+width: 700px;
+height: 300px; 
 }  
 
 .slider-nav{ 
