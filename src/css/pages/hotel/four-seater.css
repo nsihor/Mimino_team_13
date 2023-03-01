@@ -1,0 +1,162 @@
+/* ---------- MOBILE ---------- */
+
+.four-seater-room {
+  padding-bottom: 64px;
+}
+
+.four-seater-room-pic-wrap {
+  margin-bottom: 20px;
+}
+
+.four-seater-room-small-pic-wrap {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 32px;
+}
+
+.four-seater-room-title {
+  max-width: 318px;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.four-seater-room-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.four-seater-room-btns {
+  display: flex;
+  gap: 12px;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+/* ---------- TABLET ---------- */
+
+@media screen and (min-width: 768px) {
+  .four-seater-room {
+    padding-bottom: 80px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .four-seater-room-pic-wrap {
+    margin-bottom: 0;
+  }
+
+  .four-seater-room-pic-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .four-seater-room-small-pic-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 0;
+  }
+
+  .four-seater-room-small-pic1 {
+    margin-left: auto;
+  }
+
+  .four-seater-room-small-pic2 {
+    margin-left: auto;
+  }
+
+  .four-seater-room-title {
+    max-width: 438px;
+    max-height: 44px;
+  }
+
+  .four-seater-room-text-wrap {
+    width: 475px;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .four-seater-room-btns {
+    justify-content: flex-end;
+    gap: 14px;
+  }
+}
+
+/* ---------- DESKTOP ---------- */
+
+@media screen and (min-width: 1440px) {
+  .four-seater-room {
+    padding-bottom: 100px;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+
+  .four-seater-room-pic-container {
+    flex-direction: row;
+    max-height: fit-content;
+    width: auto;
+  }
+
+  .four-seater-room-pic-wrap {
+    margin: auto;
+  }
+
+  .four-seater-room-small-pic-wrap {
+    position: absolute;
+    width: 1376px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .four-seater-room-small-pic1 {
+    margin-top: 151px;
+    width: auto;
+    height: auto;
+    order: 2;
+  }
+
+  .four-seater-room-small-pic2 {
+    margin-top: 196px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    order: -2;
+  }
+
+  .four-seater-wrap {
+    position: relative;
+  }
+
+  .four-seater-room-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .four-seater-room-text-wrap {
+    margin-bottom: 0;
+  }
+
+  .four-seater-room-btns {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
