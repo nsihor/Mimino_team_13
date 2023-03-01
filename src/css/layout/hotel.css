@@ -29,14 +29,49 @@
     .section-pictures{
     margin-top: 33px;
     }
-    .pictures-hotel-tab{
-    display: none;
+    .sld-wrp{
+    width: 375px;
+    margin: 0 auto;  
+    margin-top: 32px;  
     }
+    .slider-for {
+        width: 375px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 10;
+      }
+     
+      .slide-container {
+        justify-content: center;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        object-fit:cover;
+      }
+      
+      .slide-btn {
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 20px;
+        cursor: pointer;
+      }
+      .child-hotel-mob{
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+        justify-content: center;  
+        
+      }
+
+
+
+
+            
     .hotel-button{
     display: flex;
     justify-content: center;
     margin: 0 auto;    
     }
+    
     .hotel-button-desk{
     display: none;
     }
@@ -57,6 +92,9 @@
     .book-a-room-btn {
     margin-right: 15px ;
     
+    }
+    .parent{
+    display: none;
     }}
     
     
@@ -72,7 +110,12 @@
     padding-top: 44px;
     padding-bottom: 32px;
     }
-    
+    /*.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    }*/
+
     .hotel-item{
     display: flex;
     justify-content: start;
@@ -93,35 +136,192 @@
     margin-right: 100px;
     text-align: justify;
     }
-    .pictures-hotel-tab{
-        display: block;}
+   
+    .sld-wrp, .slider-for, .slide-container, .slide-btn {
+    display: none;
+    } 
 
-    .hotel-button-desk{
-        display: none;
+    
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 176px);
+      grid-gap: 5px;
+      margin-top: 22px;
+      
     }
+    .child-hotel{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    }
+
+    .child-1 { 
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      
     }
     
+    .child-2 { 
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      width: 100%;
+      height: 100%;
+    }
     
+    .child-3 { 
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      width: 100%;
+      height: 100%;
+    }
     
+    .child-4 { 
+      grid-column-start: 4;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      width: 100%;
+      height: 100%;
+    }
     
+    .child-5 { 
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      width: 100%;
+      height: 100%;
+    }
+    .hotel-button{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;  
+      margin-top: 40px;  
+      }
+      
+      .hotel-button-desk{
+      display: none;
+      }
+      .book-a-room-btn, .view-prices-btn {
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      border: 0.8px solid #F6F6F6;;
+      color: #F6F6F6;;
+      border-radius: 32px;
+      background-color: transparent;
+      font-weight: 400px;
+      font-size: 14px; 
+      line-height: 1.71;
+      padding: 8px 18px ;
+      text-align: center;
+      cursor: pointer
+      }
+      .book-a-room-btn {
+      margin-right: 15px ;
+      
+      }
+        }
       
     
     
     @media screen and (min-width: 1440px) {
     .container {
-    width: 1440px;
-  
+    
+    width: 1400px;
+      
     }    
+    .section-main-hotel{
+      padding-top: 44px;
+      padding-bottom: 32px;
+        
+        }
     .hotel-desk{
     display: flex;
+    align-items: center;    
     }
-    .hotel-button {display: none;
+    .section-hotel-pictures{
+      margin-left: 120px;
+      margin-right: 120px;
     }
-    .hotel-button-desk  {
-    display: block;
-    margin-left: auto;
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 176px);
+        grid-gap: 15px;
+        margin-top: 20px;
+       
+        
+      }
+      
+      .child-hotel{
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        }
+      .child-1 { 
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        
+      }
+      
+      .child-2 { 
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        width: 100%;
+        height: 100%;
+        
+      }
+      
+      .child-3 { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .child-4 { 
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .child-5 { 
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 100%;
+        height: 100%;
+      }
+        
+    .hotel-button{
+    display: none;
     }
-    
+
+    .hotel-button-desk{
+        display: flex;     
+        justify-content: end;  
+        
+        }
     .book-room-btn, .view-prices-desk-btn {
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -130,15 +330,15 @@
     border-radius: 32px;
     background-color: transparent;
     font-weight: 400px;
-    font-size: 14px; 
+     font-size: 14px; 
     line-height: 1.71;
-    padding: 9px 24px ;
+    padding: 4px 24px ;
     text-align: center;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: 0 auto;
+    
     }
-    .book-room-btn {
-    margin-right: 15px ;
-    }
+    
     .hotel-item {
     max-width: 700px;
     }
