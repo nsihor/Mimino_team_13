@@ -13,12 +13,12 @@
     text-transform: uppercase;
     }
     .hotel-text{
-     color: rgba(246, 246, 246, 1); 
-     font-weight: 500; 
-     font-size: 14px;
-     line-height: 1.29;
-     margin-top: 32px;
-     text-transform: uppercase;
+      color: rgba(246, 246, 246, 1); 
+      font-weight: 500; 
+      font-size: 14px;
+      line-height: 1.29;
+      margin-top: 32px;
+      text-transform: uppercase;
     }
     .section-pictures{
     margin-top: 33px;
@@ -78,20 +78,6 @@ margin-top: 80px;
     .hotel-button-desk{
     display: none;
     }
-    .book-a-room-btn, .view-prices-btn {
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    border: 0.8px solid #F6F6F6;;
-    color: #F6F6F6;;
-    border-radius: 32px;
-    background-color: transparent;
-    font-weight: 400px;
-    font-size: 14px; 
-    line-height: 1.71;
-    padding: 8px 18px ;
-    text-align: center;
-    cursor: pointer
-    }
     .book-a-room-btn {
     margin-right: 15px ;
     
@@ -118,10 +104,6 @@ margin-top: 80px;
   /*/------------------------------------------------/*/
     
     @media screen and (min-width: 768px) {
-    .container {
-    width: 768px;
-    padding: 0 32px;
-    }    
     .section-main-hotel{
     padding-top: 44px;
     padding-bottom: 32px;
@@ -227,20 +209,6 @@ margin-top: 80px;
       .hotel-button-desk{
       display: none;
       }
-      .book-a-room-btn, .view-prices-btn {
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      border: 0.8px solid #F6F6F6;;
-      color: #F6F6F6;;
-      border-radius: 32px;
-      background-color: transparent;
-      font-weight: 400px;
-      font-size: 14px; 
-      line-height: 1.71;
-      padding: 8px 18px ;
-      text-align: center;
-      cursor: pointer
-      }
       .book-a-room-btn {
       margin-right: 15px ;
       
@@ -337,22 +305,6 @@ margin-top: 20px;
         gap: 14px; 
         margin-bottom: 80px;
         }
-    .book-room-btn, .view-prices-desk-btn {
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    border: 0.8px solid #F6F6F6;;
-    color: #F6F6F6;;
-    border-radius: 32px;
-    background-color: transparent;
-    font-weight: 400px;
-     font-size: 14px; 
-    line-height: 1.71;
-    padding: 4px 24px ;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 0 auto;
-    
-    }
     
     .hotel-item {
     max-width: 700px;
