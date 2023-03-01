@@ -1,0 +1,185 @@
+.welcome-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.welcome-title span {
+    font-style: italic;
+}
+
+.descr-hotel,
+.descr-room {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media screen and (max-width:767px) {
+    .welcome-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
+    .welcome {
+        max-width: 335px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 32px;
+    }
+
+    .welcome-descr {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .descr-room {
+        max-width: 335px;
+    }
+
+    .welcome-img {
+        width: 335px;
+        height: 432px;
+        margin-top: 32px;
+    }
+
+    .welcome-img::after {
+        content: '';
+        position: absolute;
+
+
+        width: 335px;
+        height: 432px;
+
+        background-image: url(../img/welcome/welcome-mobile.jpg);
+    }
+}
+
+@media screen and (max-width:767px)  and (min-device-pixel-ratio:2),
+screen and (max-width:767px) and (min-resolution:2) {
+    .welcome::after {
+        background-image: url(../img/welcome/welcome-mobile-2x.jpg);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .welcome-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .welcome {
+        max-width: 704px;
+    }
+
+    .welcome-descr {
+        display: flex;
+        gap: 32px;
+        flex-direction: row;
+    }
+
+    .descr-room {
+        max-width: 366px;
+    }
+
+    .welcome-title {
+        max-width: 434px;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .descr-hotel {
+        max-width: 306px;
+    }
+
+    .welcome-img {
+        width: 704px;
+        height: 599px;
+        margin-top: 29px;
+    }
+
+    .welcome-img::after {
+        content: '';
+        position: absolute;
+
+
+        width: 704px;
+        height: 599px;
+
+        background-image: url(../img/welcome/welcome-tablet.jpg);
+    }
+}
+
+@media screen and (max-width:1439px)  and (min-device-pixel-ratio:2),
+screen and (max-width:1439px) and (min-resolution:2) {
+    .welcome::after {
+        background-image: url(../img/welcome/welcome-tablet-2x.jpg);
+    }
+}
+
+@media screen and (max-width:1439px) {
+    .welcome-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .welcome-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 32px;
+
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .welcome-title {
+        margin-bottom: 0;
+    }
+
+    .welcome-descr {
+        margin-top: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .welcome-img {
+        margin-top: 0;
+        margin-left: 32px;  
+    }
+
+    .welcome-img::after {
+        content: '';
+        position: absolute;
+
+
+        width: 692px;
+        height: 599px;
+
+        background-image: url(../img/welcome/welcome.jpg);
+    }
+}
+
+@media screen and (min-width:1440px) and (min-device-pixel-ratio:2),
+screen and (min-width:1440px) and (min-resolution:2) {
+    .welcome::after {
+        background-image: url(../img/welcome/welcome-2x.jpg);
+    }
+}
