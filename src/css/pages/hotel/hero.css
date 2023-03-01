@@ -113,7 +113,9 @@ h1 {
         margin-bottom: 40px;
     }
 
-    .room-images {
+    .room-images,
+    .rest-images,
+    .hotel-images {
         display: flex;
         position: relative;
 
@@ -150,6 +152,64 @@ h1 {
         background: url(../../../img/hero/room-hero-3-250.jpg) center center/cover;
     }
 
+    .rest-image-one {
+        position: absolute;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/rest-hero-1-250.jpg) center center/cover;
+    }
+
+    .rest-image-two {
+        position: absolute;
+        left: 270px;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/rest-hero-2-250.jpg) center center/cover;
+    }
+    
+    .rest-image-three {
+        position: absolute;
+        left: 540px;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/rest-hero-3-250.jpg) center center/cover;
+    }
+
+    .hotel-image-one {
+        position: absolute;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/hotel-hero-left-250.jpg) center center/cover;
+    }
+
+    .hotel-image-two {
+        position: absolute;
+        left: 270px;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/hotel-hero-mid-250.jpg) center center/cover;
+    }
+
+    .hotel-image-three {
+        position: absolute;
+        left: 540px;
+
+        width: 250px;
+        height: 429px;
+        
+        background: url(../../../img/hero/hotel-hero-right-250.jpg) center center/cover;
+    }
+
     .images-buttons {
         display: flex;
         gap: 32px;
@@ -172,6 +232,30 @@ screen and (max-width:767px) and(min-resolution:2) {
 
     .room-image-three {
         background-image: url(../../../img/hero/room-hero-3-500.jpg);
+    }
+
+    .rest-image-one {
+        background: url(../../../img/hero/rest-hero-1-500.jpg) center center/cover;
+    }
+
+    .rest-image-two {
+        background: url(../../../img/hero/rest-hero-2-500.jpg) center center/cover;
+    }
+
+    .rest-image-three {
+        background: url(../../../img/hero/rest-hero-3-500.jpg) center center/cover;
+    }
+
+    .hotel-image-one {
+        background: url(../../../img/hero/hotel-hero-left-500.jpg) center center/cover;
+    }
+
+    .hotel-image-two {
+        background: url(../../../img/hero/hotel-hero-mid-500.jpg) center center/cover;
+    }
+
+    .hotel-image-three {
+        background: url(../../../img/hero/hotel-hero-right-500.jpg) center center/cover;
     }
 }
 
@@ -209,7 +293,9 @@ screen and (max-width:767px) and(min-resolution:2) {
         line-height: 24px;
     }
 
-    .room-images {
+    .room-images,
+    .rest-images,
+    .hotel-images {
         display: flex;
         position: relative;
 
@@ -246,6 +332,64 @@ screen and (max-width:767px) and(min-resolution:2) {
         background: url(../../../img/hero/room-hero-img-3.jpg) center center/cover;
     }
 
+    .rest-image-one {
+        position: absolute;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/rest-hero-img-1.jpg) center center/cover;
+    }
+
+    .rest-image-two {
+        position: absolute;
+        left: 476px;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/rest-hero-img-2.jpg) center center/cover;
+    }
+
+    .rest-image-three {
+        position: absolute;
+        left: 948px;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/rest-hero-img-3.jpg) center center/cover;
+    }
+
+    .hotel-image-one {
+        position: absolute;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/hotel-hero-img-left.jpg) center center/cover;
+    }
+
+    .hotel-image-two {
+        position: absolute;
+        left: 476px;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/hotel-hero-img-mid.jpg) center center/cover;
+    }
+
+    .hotel-image-three {
+        position: absolute;
+        left: 948px;
+
+        width: 436px;
+        height: 548px;
+        
+        background: url(../../../img/hero/hotel-hero-img-right.jpg) center center/cover;
+    }
+
     .hero-images {
         position: relative;
         height: 624px;
@@ -276,6 +420,30 @@ screen and (min-width:768px) and (min-resolution:2) {
     .room-image-three {
         background: url(../../../img/hero/room-hero-img-3-2x.jpg) center center/cover;
     }
+
+    .rest-image-one {
+        background: url(../../../img/hero/rest-hero-img-1-2x.jpg) center center/cover;
+    }
+
+    .rest-image-two {
+        background: url(../../../img/hero/rest-hero-img-2-2x.jpg) center center/cover;
+    }
+
+    .rest-image-three {
+        background: url(../../../img/hero/rest-hero-img-3-2x.jpg) center center/cover;
+    }
+
+    .hotel-image-one {
+        background: url(../../../img/hero/hotel-hero-img-left-2x.jpg) center center/cover;
+    }
+
+    .hotel-image-two {
+        background: url(../../../img/hero/hotel-hero-img-mid-2x.jpg) center center/cover;
+    }
+
+    .hotel-image-three {
+        background: url(../../../img/hero/hotel-hero-img-right-2x.jpg) center center/cover;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -298,15 +466,32 @@ screen and (min-width:768px) and (min-resolution:2) {
 
     .hero-descr {
         position: absolute;
-        /* top: 648px; */
         left: 32px;
         bottom: 15px;
+    }
+
+    .descr {
+        top: 430px;
     }
 
     .room-images {
         width: 50%;
         left: 50%;
         margin-top: -630px;
+        padding-top: 32px;
+    }
+
+    .rest-images {
+        width: 50%;
+        left: 50%;
+        margin-top: -530px;
+        padding-top: 32px;
+    }
+
+    .hotel-images {
+        width: 50%;
+        left: 50%;
+        margin-top: -530px;
         padding-top: 32px;
     }
 
