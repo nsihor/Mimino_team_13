@@ -21,55 +21,55 @@
                 name="client-name"
                 class="modal-input"
                 pattern="[A-Za-zА-Яа-яЁё\s?]{2,20}"
-                title="2 to 20 text characters"
                 autocomplete="off"
               />
+              <span class="clue"
+                >Your name should be consist 2 to 20 characters</span
+              >
             </span>
             <span class="modal-label-text">Who should book a table for?</span>
           </label>
 
           <label for="number-of-guests" class="modal-label modal-label-number">
-            <span class="modal-wrap modal-wrap-number">
-              <span class="modal-label-title">number of people</span>
-              <span class="wrap-svg">
-                <svg class="modal-icon-fake" width="20px" height="20px">
-                  <use
-                    class="modal-icon-fake"
-                    href="../../img/symbol-defs.svg#icon-Icon-4-1"
-                  ></use>
-                </svg>
-              </span>
+            <svg class="modal-icon-fake-number" width="20px" height="20px">
+              <use
+                class="modal-icon-fake"
+                href="../../img/symbol-defs.svg#icon-Icon-4-1"
+              ></use>
+            </svg>
+            <span class="arrow-cover-number"></span>
+            <span class="modal-label-title">number of people</span>
 
-              <select
-                name="number-of-guests"
-                id="number-of-guests"
-                class="modal-input modal-input-number"
-              >
-                <option selected disabled></option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="more">more</option>
-              </select>
-            </span>
+            <select
+              name="number-of-guests"
+              id="number-of-guests"
+              class="modal-input modal-input-number"
+            >
+              <option selected disabled></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="more">more</option>
+            </select>
           </label>
         </span>
+
         <span class="wrap-modal-dat-tel">
           <label for="date-to-book" class="modal-label modal-label-book">
-            <span class="modal-wrap">
-              <span class="wrap-svg">
-                <svg class="modal-icon-fake" width="20px" height="10px">
-                  <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
-                </svg>
-              </span>
-              <select name="date-to-book" id="date-to-book" class="modal-input">
-                <option value="Today">Today</option>
-                <option value="Tomorrow">Tomorrow</option>
-              </select>
-            </span>
+            <svg class="modal-icon-fake-tel" width="20px" height="10px">
+              <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+            </svg>
+            <span class="arrow-cover-date"></span>
+            <select
+              name="date-to-book"
+              id="date-to-book"
+              class="modal-input modal-input-tel"
+            >
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+            </select>
+
             <span class="modal-label-text">What date to book?</span>
           </label>
 
@@ -81,10 +81,13 @@
                 name="client-tel"
                 class="modal-input"
                 pattern="\+38\s?[\(][0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
-                title="+38(ххх)ххх-хх-хх"
                 autocomplete="off"
                 required
               />
+              <span class="clue"
+                >Please enter a phone number in the following format
+                +38(ххх)ххх-хх-хх</span
+              >
             </span>
             <span class="modal-label-text">Phone number</span>
           </label>

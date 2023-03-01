@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  /*overflow: scroll;*/
+  overflow: scroll;
   width: 100%;
   height: 100%;
 
@@ -30,10 +30,7 @@
   left: 50%;
   top: 0%;
   transform: translateX(-50%) scale(1);
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 24px;
-  padding-bottom: 40px;
+  padding: 24px 24px 40px;
 
   background-color: var(--dark);
   border-radius: 4px;
@@ -88,6 +85,7 @@
 }
 
 .modal-label {
+  position: relative;
   display: block;
   width: 100%;
 }
@@ -116,8 +114,7 @@
 .modal-input {
   text-align: start;
   width: 100%;
-  /*margin-bottom: 8px;*/
-  /*padding-bottom: 18px;*/
+
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -129,6 +126,36 @@
   color: var(--light);
   background-color: var(--dark);
   border: transparent;
+}
+
+.modal-input-tel {
+  margin-bottom: 8px;
+  padding-bottom: 18px;
+}
+.modal-input-number,
+.modal-input-tel {
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+}
+
+.modal-input:invalid:not(:placeholder-shown) {
+  color: tomato;
+}
+
+.modal-input:invalid:not(:placeholder-shown) + .clue {
+  opacity: 1;
+}
+
+.clue {
+  position: absolute;
+  bottom: 110%;
+  left: 0%;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: rgb(60, 0, 255);
+  font-size: 14px;
+  opacity: 0;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .modal-input::placeholder {
@@ -168,18 +195,37 @@
   background-color: var(--dark);
 }
 
-.modal-icon-fake {
+.modal-icon-fake-number,
+.modal-icon-fake-tel {
   fill: var(--dark);
   stroke: var(--light);
   position: absolute;
-  top: 0%;
-  right: 0%;
   background-color: var(--dark);
-  width: 20px;
-  height: 20px;
-  padding-bottom: 10px;
-  border: 1px solid var(--dark);
+  /*padding-bottom: 10px;
+  border: 1px solid var(--dark);*/
   pointer-events: none;
+  top: 13%;
+  right: 1%;
+
+  width: 15px;
+  height: 10px;
+}
+.arrow-cover-number {
+  position: absolute;
+  background-color: var(--dark);
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  right: 1%;
+}
+
+.arrow-cover-date {
+  position: absolute;
+  background-color: var(--dark);
+  width: 15px;
+  height: 15px;
+  top: 30%;
+  right: 1%;
 }
 
 .button-reserv {
@@ -219,26 +265,35 @@
     width: 628px;
     min-height: 426px;
     padding: 32px 32px 60px;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    top: 10%;
   }
 
   .wrap-modal {
     margin-bottom: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*column-gap: 32px;*/
+    row-gap: 40px;
   }
 
   .wrap-modal-name-number,
   .wrap-modal-dat-tel {
     flex-wrap: wrap;
     column-gap: 32px;
-    row-gap: 40px;
+    /*row-gap: 40px;*/
   }
   .wrap-modal-name-number {
     flex-direction: row;
+    width: 100%;
   }
 
   .wrap-modal-dat-tel {
     flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .arrow-cover-number {
+    top: 30%;
   }
   .modal-label {
     flex-basis: calc((100% - 32px) / 2);
@@ -248,13 +303,10 @@
     text-align: start;
   }
 
-  .modal-label-date {
-    order: 3;
-  }
-  .modal-label-tel {
-    order: 2;
-  }
   .modal-title {
+    margin-bottom: 60px;
+    text-align: start;
+
     font-size: 36px;
     line-height: 1.11;
   }
