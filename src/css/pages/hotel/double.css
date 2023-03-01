@@ -88,6 +88,7 @@
     .double-room-text-wrap {
         flex-direction: row;
         gap: 32px;
+        margin-bottom: 40px;
     }
 
     .double-room-text1 {
@@ -143,10 +144,17 @@
         order: -2;
     }
 
-    .double-room-content-wrap {
+    .double-room-wrap {
         position: relative;
+    }
+
+    .double-room-content-wrap {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .double-room-text-wrap {
         margin-bottom: 0;
     }
 
@@ -161,6 +169,6 @@
     .double-room-btns {
         position: absolute;
         right: 0;
-        top: -76px;
+        top: 0px;
     }
 }
