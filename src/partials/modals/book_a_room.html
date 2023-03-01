@@ -1,10 +1,10 @@
-<section class="section-backdrop" data-modal="book-table">
+<section class="section-backdrop" data-modal="book-room">
   <div class="modal-win">
     <h2 class="modal-title">BOOK <span class="italic">A ROOM</span></h2>
     <button
       type="submit"
       class="close-modal js-modal-close"
-      data-modal="book-table"
+      data-modal="book-room"
     >
       <svg class="modal-icon-close js-modal-close" width="32px" height="32px">
         <use href="../../img/symbol-defs.svg#icon-x-1"></use>
@@ -20,9 +20,11 @@
               name="client-name"
               class="modal-input"
               pattern="[A-Za-zА-Яа-яЁё\s?]{2,20}"
-              title="2 to 20 text characters"
               autocomplete="off"
             />
+            <span class="clue"
+              >Your name should be consist 2 to 20 characters</span
+            >
           </span>
           <span class="modal-label-text">Who should book a room for?</span>
         </label>
@@ -35,10 +37,13 @@
               name="client-tel"
               class="modal-input"
               pattern="\+38\s?[\(][0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
-              title="+38(ххх)ххх-хх-хх"
               autocomplete="off"
               required
             />
+            <span class="clue"
+              >Please enter a phone number in the following format
+              +38(ххх)ххх-хх-хх</span
+            >
           </span>
           <span class="modal-label-text">Phone number</span>
         </label>
@@ -95,7 +100,7 @@
       <button
         type="submit"
         class="button-reserv btn_light js-modal-close"
-        data-modal="book-table"
+        data-modal="book-room"
       >
         MAKE A RESERVATION
       </button>
