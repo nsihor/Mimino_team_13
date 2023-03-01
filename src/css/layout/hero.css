@@ -1,0 +1,196 @@
+/* ----------------------------HERO STYLES------------------------ */
+
+.hero-main {
+  background-color: var(--dark);
+  padding-top: 118px;
+  padding-bottom: 40px;
+}
+
+.hero-main-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 70.73%,
+      #121212 98.51%
+    ),
+    url(../../img/main/hero/hero-img-dsktp-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 335px 439px;
+  padding-top: 389px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-main-container {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(../../img/main/hero/hero-img-mob-2x.jpg);
+  }
+}
+
+.hero-main-title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--light);
+  text-align: center;
+  margin-bottom: 24px;
+}
+.hero-main-btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 66px;
+}
+
+.hero-main-btn {
+  min-width: 131px;
+  height: 34px;
+  line-height: 1.29;
+}
+
+.hero-main-text-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.hero-main-text-item {
+}
+.hero-main-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.hero-main-text-italic {
+  font-style: italic;
+}
+
+/* --------------HERO TABLET---------------- */
+
+@media screen and (min-width: 768px) {
+  .hero-main {
+    padding-top: 128px;
+    padding-bottom: 40px;
+  }
+
+  .hero-main-container {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(../../img/main/hero/hero-img-tab-1x.jpg);
+    background-size: 542px 710px;
+    padding-top: 478px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main-container {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          #121212 98.51%
+        ),
+        url(../../img/main/hero/hero-img-tab-2x.jpg);
+    }
+  }
+  .hero-main-title {
+    font-size: 150px;
+    margin-bottom: 32px;
+  }
+  .hero-main-text-list {
+    flex-wrap: nowrap;
+  }
+  .hero-main-btn-list {
+    margin-bottom: 86px;
+  }
+  .hero-main-btn {
+    min-width: 143px;
+    height: 40px;
+    line-height: 1.71;
+  }
+}
+
+/* --------------HERO DESKTOP---------------- */
+
+@media screen and (min-width: 1440px) {
+  .hero-main {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-main-container {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        rgba(18, 18, 18, 0.8) 100%
+      ),
+      url(../../img/main/hero/hero-img-dsktp-1x.jpg);
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: contain;
+    background-position: 100% 0;
+    padding-top: 274px;
+    padding-bottom: 48px;
+    padding-right: 92px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main-container {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          #121212 98.51%
+        ),
+        url(../../img/main/hero/hero-img-dsktp-2x.jpg);
+    }
+  }
+  .hero-main-title {
+    text-align: left;
+    font-size: 180px;
+    margin-bottom: 196px;
+  }
+
+  .hero-main-container-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 270px;
+  }
+
+  .hero-main-text-list {
+    flex-wrap: nowrap;
+  }
+  .hero-main-btn-list {
+    margin-bottom: 0;
+    order: 1;
+  }
+  .hero-main-btn {
+    min-width: 172px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .hero-main-container-text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 48px;
+  }
+}
