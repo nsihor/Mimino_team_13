@@ -1,0 +1,166 @@
+
+/* ---------- MOBILE ---------- */
+
+.double-room {
+    padding-bottom: 64px;
+}
+
+.double-room-pic-wrap {
+    margin-bottom: 20px;
+}
+
+.double-room-small-pic-wrap {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 32px;
+}
+
+.double-room-title {
+    max-width: 246px;
+    height: 80px;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.double-room-text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.double-room-btns {
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+/* ---------- TABLET ---------- */
+
+@media screen and (min-width: 768px) {
+    .double-room {
+        padding-bottom: 80px;
+    }
+
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .double-room-pic-wrap {
+        margin-bottom: 0;
+    }
+
+    .double-room-pic-container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .double-room-small-pic-wrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        margin-bottom: 0;
+    }
+
+    .double-room-small-pic1 {
+        margin-left: auto;
+    }
+
+    .double-room-small-pic2 {
+        margin-left: auto;
+    }
+
+    .double-room-title {
+        max-width: 438px;
+        max-height: 44px;
+    }
+
+    .double-room-text-wrap {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .double-room-text1 {
+        max-width: 369px;
+    }
+
+    .double-room-btns {
+        justify-content: flex-end;
+        gap: 14px;
+    }
+}
+
+/* ---------- DESKTOP ---------- */
+
+@media screen and (min-width: 1440px) {
+    .double-room {
+        padding-bottom: 100px;
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .double-room-pic-container {
+        flex-direction: row;
+        max-height: fit-content;
+        width: auto;
+    }
+
+    .double-room-pic-wrap {
+        margin: auto;
+    }
+
+    .double-room-small-pic-wrap {
+        position: absolute;
+        width: 1376px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .double-room-small-pic1 {
+        margin-top: 151px;
+        width: auto;
+        height: auto;
+        order: 2;
+    }
+
+    .double-room-small-pic2 {
+        margin-top: 196px;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        order: -2;
+    }
+
+    .double-room-content-wrap {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .double-room-text1 {
+        max-width: 355px;
+    }
+
+    .double-room-text2 {
+        max-width: 299px;
+    }
+
+    .double-room-btns {
+        position: absolute;
+        right: 0;
+        top: -76px;
+    }
+}
