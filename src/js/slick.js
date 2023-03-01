@@ -6,10 +6,10 @@ $('.slider-for').slick({
     asNavFor: '.slider-nav'
   });
   $('.slider-nav').slick({
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
+    dots: false,
+    centerMode: false,
+    focusOnSelect: false
   });
