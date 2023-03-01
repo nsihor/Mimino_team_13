@@ -1,10 +1,6 @@
-@media screen and (min-width: 0px) {
-   
     .section-main-restaurant{
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: #D8D8D8;
-    
     }
     
     .restaurant{
@@ -24,13 +20,11 @@
     }
     .restaurant-pictures{
     margin-top: 32px;
-    
     }
     
     .multiple-items-two{
     display: flex;
     margin-top: 20px;
-    
         }
 
     .multiple-res:not(:last-child){
@@ -63,31 +57,12 @@
     margin-bottom: 80px;
     }
     
-    .book-a-table-btn, .view-menu-btn {
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    border: 0.8px solid rgba(18, 18, 18, 1);
-    color: rgba(18, 18, 18, 1);
-    border-radius: 32px;
-    background-color: transparent;
-    font-weight: 400px;
-    font-size: 14px; 
-    line-height: 1.71;
-    padding: 8px 18px ;
-    text-align: center;
-    cursor: pointer
-    }
     .book-a-table-btn {
     margin-right: 15px ;
     }
-}
 /*/--------------------------------------------/*/
     
-    @media screen and (min-width: 768px) {
-    .container {
-    width: 768px;
-    padding: 0 32px;
-    }    
+    @media screen and (min-width: 768px) { 
     .section-main-hotel{
     padding-top: 44px;
     padding-bottom: 32px;
@@ -143,20 +118,6 @@
       display: none;
       }
 
-      .book-a-room-btn, .view-prices-btn {
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      border: 0.8px solid #F6F6F6;
-      color: #F6F6F6;;
-      border-radius: 32px;
-      background-color: transparent;
-      font-weight: 400px;
-      font-size: 14px; 
-      line-height: 1.71;
-      padding: 8px 18px ;
-      text-align: center;
-      cursor: pointer
-      }
       .book-a-room-btn {
       margin-right: 15px ;
     }
@@ -165,14 +126,11 @@
 
 /*------------------------------------------*/
 
-    @media screen and (min-width: 1440px) {
-    .container {
-    width: 1400px;   
-    }    
+    @media screen and (min-width: 1440px) {    
     .section-main-restaurant{
       padding-top: 44px;
       padding-bottom: 32px;
-     }
+    }
 .restaurant-desk{
 display: flex;
 align-items: center; 
@@ -194,21 +152,6 @@ display: none;
     display: flex;     
     justify-content: end; 
     gap: 14px;    
-    }
-    .book-a-table-btn, .view-the-menu-btn {
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    border: 0.8px solid rgba(18, 18, 18, 1);
-    color: rgba(18, 18, 18, 1);
-    border-radius: 32px;
-    background-color: transparent;
-    font-weight: 400px;
-     font-size: 14px; 
-    line-height: 1.71;
-    padding: 4px 24px ;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 0 auto;
     }
     .multiple-items-two{
         display: none;
