@@ -29,6 +29,8 @@
 width: 100%;
 margin: 0 auto;  
 margin-top: 32px;  
+position: relative;
+
 }
 .slider-for {
 width: 100%;
@@ -50,7 +52,7 @@ height: 300px;
 .slide-btn {
 justify-content: center;
 box-sizing: border-box;
-padding: 20px;
+margin: 20px 7px 0 0;
 cursor: pointer;
 object-fit: cover;
 width: 150px;
@@ -70,7 +72,7 @@ height: 100%;
 display: flex;
 justify-content: center;
 margin: 0 auto;  
-margin-top: 32px; 
+margin-top: 80px; 
 }
     
     .hotel-button-desk{
@@ -93,14 +95,27 @@ margin-top: 32px;
     .book-a-room-btn {
     margin-right: 15px ;
     
+    
     }
     .parent{
     display: none;
-    }}
+    }
+    /*-----slick-slider-custumize------*/
+    .slick-prev, .slick-next{
+     bottom: -60px;
+     top: initial;
+     
+    }
+    .slick-prev{
+    left: 1px;
     
-    
-    
-       /*/--------------------------------------------/*/
+    }
+    .slick-next {
+    left: 30px;
+    }
+  }
+
+  /*/------------------------------------------------/*/
     
     @media screen and (min-width: 768px) {
     .container {
