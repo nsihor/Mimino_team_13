@@ -1,0 +1,54 @@
+.btn_dark {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border: 0.8px solid var(--dark);
+    border-radius: 32px;
+    background: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn_light {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border: 0.8px solid var(--second-light);
+    border-radius: 32px;
+    color: var(--second-light);
+    background: transparent;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn_light:hover,
+.btn_light:focus {
+    color: var(--primery-black);
+    background-color: #fff;
+}
+
+.btn_dark:hover,
+.btn_dark:focus {
+    color: var(--second-light);
+    background-color: var(--dark);
+}
+
+@media screen and (min-width: 768px) {
+    .btn_light {
+        padding: 8px 24px;
+    }
+    .btn_dark {
+        padding: 8px 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .btn_light {
+        font-size: 18px;
+        line-height: 1.33;
+        padding: 9px 24px;
+    }
+}
