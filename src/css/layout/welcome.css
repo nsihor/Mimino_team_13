@@ -21,6 +21,7 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .welcome-section {
     /*padding-top: 64px;*/
@@ -29,6 +30,16 @@
 
   .welcome {
     /*max-width: 335px;
+=======
+@media screen and (max-width:767px) {
+    .welcome-section {
+        padding-top: 72px;
+        padding-bottom: 32px;
+    }
+    
+    .welcome {
+        max-width: 335px;
+>>>>>>> main
         padding-left: 20px;
         padding-right: 20px;*/
     gap: 32px;
@@ -68,11 +79,23 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
   .welcome-section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+=======
+@media screen and (min-width:768px) {
+    .welcome-section {
+        padding-top: 88px;
+        padding-bottom: 80px;
+    }
+    
+    .welcome {
+        max-width: 704px;
+    }
+>>>>>>> main
 
   .welcome {
     max-width: 704px;
