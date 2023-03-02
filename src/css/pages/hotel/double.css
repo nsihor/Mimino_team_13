@@ -121,7 +121,7 @@
     .double-room-pic-container {
         flex-direction: row;
         max-height: fit-content;
-        width: auto;
+        width: 1376px;
     }
 
     .double-room-pic-wrap {
