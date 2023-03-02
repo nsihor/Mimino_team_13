@@ -17,6 +17,7 @@
 .triple-room-title {
   max-width: 246px;
   font-size: 32px;
+  line-height: 1.25;
   margin-bottom: 32px;
 }
 
@@ -25,6 +26,7 @@
   flex-direction: column;
   gap: 24px;
   font-size: 14px;
+  line-height: 1.29;
   text-transform: uppercase;
   margin-bottom: 36px;
 }
@@ -73,12 +75,16 @@
 
   .triple-room-title {
     max-width: 438px;
+    font-size: 40px;
+    line-height: 1.1;
   }
 
   .triple-room-text-wrap {
     flex-direction: row;
     gap: 32px;
     margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.33;
   }
 
   .triple-room-text1 {
