@@ -73,7 +73,7 @@ display: flex;
 justify-content: center;
 margin: 0 auto;  
 margin-top: 80px; 
-}
+margin-bottom: 40px;}
     
     .hotel-button-desk{
     display: none;
@@ -138,6 +138,10 @@ margin-top: 80px;
     padding-top: 7px;
     
     }
+    .hotel-desk{
+      margin-bottom: 80px;
+    }
+
     .hotel, .hotel-text {
     text-align: start;
     margin: auto; 
@@ -249,10 +253,9 @@ margin-top: 80px;
       
     
     
-    @media screen and (min-width: 1440px) {
-    .container {
-    width: 1400px;
-      
+  @media screen and (min-width: 1440px) {
+  .container {
+  width: 1400px;  
     }    
 .section-main-hotel{
 padding-top: 44px;
@@ -261,7 +264,8 @@ padding-bottom: 32px;
 .hotel-desk{
 display: flex;
 align-items: center; 
-justify-content: space-between;   
+justify-content: space-between;  
+margin-bottom: 80px; 
 
 }
 .section-hotel-pictures{
@@ -273,7 +277,7 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(3, 176px);
 grid-gap: 15px;
-margin-top: 20px;
+margin-bottom: 50px;
 }
       
       .child-hotel{
@@ -335,7 +339,7 @@ margin-top: 20px;
         display: flex;     
         justify-content: end; 
         gap: 14px; 
-        margin-bottom: 80px;
+        
         }
     .book-room-btn, .view-prices-desk-btn {
     letter-spacing: -0.02em;
