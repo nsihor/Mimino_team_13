@@ -57,14 +57,14 @@
     width: 335px;
     height: 432px;
 
-    background-image: url(../img/welcome/welcome-mobile.jpg);
+    background-image: url(/img/welcome/welcome-mobile.jpg);
   }
 }
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
   screen and (max-width: 767px) and (min-resolution: 2) {
   .welcome::after {
-    background-image: url(../img/welcome/welcome-mobile-2x.jpg);
+    background-image: url(/img/welcome/welcome-mobile-2x.jpg);
   }
 }
 
@@ -112,14 +112,14 @@
     width: 704px;
     height: 599px;
 
-    background-image: url(../img/welcome/welcome-tablet.jpg);
+    background-image: url(/img/welcome/welcome-tablet.jpg);
   }
 }
 
 @media screen and (max-width: 1439px) and (min-device-pixel-ratio: 2),
   screen and (max-width: 1439px) and (min-resolution: 2) {
   .welcome::after {
-    background-image: url(../img/welcome/welcome-tablet-2x.jpg);
+    background-image: url(/img/welcome/welcome-tablet-2x.jpg);
   }
 }
 
@@ -182,14 +182,14 @@
     width: 692px;
     height: 599px;
 
-    background-image: url(../img/welcome/welcome.jpg);
+    background-image: url(/img/welcome/welcome.jpg);
   }
 }
 
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
   screen and (min-width: 1440px) and (min-resolution: 2) {
   .welcome::after {
-    background-image: url(../img/welcome/welcome-2x.jpg);
+    background-image: url(/img/welcome/welcome-2x.jpg);
     background-size: cover;
   }
 }
