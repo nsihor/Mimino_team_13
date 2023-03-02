@@ -1,3 +1,7 @@
+.section {
+    overflow-x: hidden;
+}
+
 .room-hero-title span {
     font-style: italic;
 }
@@ -428,7 +432,7 @@ screen and (min-width:768px) and (min-resolution:2) {
     }
 
     .descr {
-        top: 430px;
+        top: 572px;
     }
 
     .room-images {
