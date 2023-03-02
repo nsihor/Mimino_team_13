@@ -1,3 +1,6 @@
+.about-complex-1, .about-complex-2, .about-complex-3, .about-complex-4 {
+    position: relative;
+}
 .about-complex-logo {
     display: none;
 }
@@ -252,7 +255,10 @@
 }
 .about-complex-rest {
     display: flex;
+    width: 1376px;
+    height: 736px;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 .about-rest-hotel {
     min-width: 1440px;
@@ -264,13 +270,7 @@
     margin-right: auto;
 
 }
-.about-complex-girl {
-    background: #121212;
-    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    display: flex;
-    position: absolute;
-}
+
 
 .content-complex {
     padding-left: 107px;
@@ -289,11 +289,27 @@
 .about-complex-2 {
     width: 439px;
     height: 219px;
-
+    top: -450px;
 }
 .complex-2 {
     left: 332px;
     right:669px;
+}
+.about-complex-girl {
+    background: #121212;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    display: flex;
+    position: absolute;
+    top: 276px;
+}
+.about-complex-content {
+    position: relative;
+    left: 400px;
+    top: 140px;
+    padding-bottom: 0;
+    width: 530px;
+    height: 325px;
 }
 .about-bus-class {
     padding-bottom: 144px;
@@ -303,9 +319,12 @@
     margin-right: auto;
 }
 .about-complex-bus {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    left: 208px;
+    width: 1200px;
+    height: 492px;
 }
 .about-complex-3 {
     width: 530px;
