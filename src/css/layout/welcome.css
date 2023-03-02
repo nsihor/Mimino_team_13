@@ -23,8 +23,8 @@
 
 @media screen and (max-width:767px) {
     .welcome-section {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 72px;
+        padding-bottom: 32px;
     }
     
     .welcome {
@@ -71,7 +71,7 @@ screen and (max-width:767px) and (min-resolution:2) {
 
 @media screen and (min-width:768px) {
     .welcome-section {
-        padding-top: 80px;
+        padding-top: 88px;
         padding-bottom: 80px;
     }
     

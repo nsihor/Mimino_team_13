@@ -95,14 +95,12 @@
     color: #f7f7f7;
     margin-bottom: 208px;
   }
-  .amenities-media-item {
-  }
   
-  img {
-    display: block;
-    height: auto;
-    width: auto;
-  }
+    img {
+      display: block;
+      height: auto;
+      width: auto;
+    }
   
   .amenities-images {
     display: block;
