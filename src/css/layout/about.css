@@ -28,6 +28,7 @@
     background: #121212;
     display: flex;
     position: relative;
+    top: -173px;
 }
 .photo-ellipse {
     background-color: #121212;
@@ -69,7 +70,6 @@
     color: #F7F7F7;
 }
 .about-complex-content {
-    padding-top: 32px;
     padding-bottom: 80px;
 }
 .content-complex {
@@ -165,7 +165,6 @@
 .about-complex-4 {
     width: 335px; 
     height: 309px;
-    padding-top: 40px;
 }
 
 @media screen and (min-width: 375px) {
@@ -175,6 +174,8 @@
 }
 .about-complex-girl {
     display: flex;
+    position: relative;
+    top: -173px;
 }
 .about-complex-1{
     width: 335px;
@@ -183,6 +184,7 @@
 .about-complex-2 {
     width: 282px;
     height: 153px; 
+    padding-bottom: 32px;
 }
 .about-complex-3 {
     width: 335px;
@@ -190,6 +192,8 @@
 }
 .about-complex-boy {
     display: flex;
+    position: relative;
+    top: -175px;
 }
 .about-complex-4 {
     width: 335px;
