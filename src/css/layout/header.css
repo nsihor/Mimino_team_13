@@ -12,21 +12,14 @@
   z-index: 1;
   position: relative;
 }
-
+.header-bg > .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .header-bg-other {
   background: #ffffff;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
   z-index: 1;
-}
-
-.header-bg > .container {
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -0%);
 }
 
 .nav-header-container {
@@ -195,6 +188,11 @@
   .header-bg > .container {
     padding-left: 32px;
     padding-right: 32px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
   }
 
   .mob-menu-wrap {
