@@ -23,6 +23,7 @@
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     background: #121212;
+    display: flex;
     position: relative;
 }
 .photo-ellipse {
@@ -129,6 +130,7 @@
     background: #121212;
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
+    display: flex;
     position: relative;
 }
 
@@ -287,6 +289,9 @@
 .about-complex-2 {
     width: 439px;
     height: 219px;
+
+}
+.complex-2 {
     left: 332px;
     right:669px;
 }
