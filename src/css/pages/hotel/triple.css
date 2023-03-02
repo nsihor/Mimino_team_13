@@ -111,7 +111,7 @@
   .triple-room-pic-container {
     flex-direction: row;
     max-height: fit-content;
-    width: auto;
+    width: 1376px;
   }
 
   .triple-room-pic-wrap {

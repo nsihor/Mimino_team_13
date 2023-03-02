@@ -117,7 +117,7 @@
   .four-seater-room-pic-container {
     flex-direction: row;
     max-height: fit-content;
-    width: auto;
+    width: 1376px;
   }
 
   .four-seater-room-pic-wrap {
