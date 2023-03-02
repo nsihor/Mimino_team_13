@@ -350,10 +350,13 @@ screen and (max-width:767px) and(min-resolution:2) {
         background: url(../../../img/hero/hotel-hero-img-right.jpg) center center/cover;
     }
 
-    .hero-images {
+    @media screen and (max-width:1399px){
+        .hero-images {
         position: relative;
         height: 624px;
     }
+    }
+    
 
     .images-buttons {
         position: absolute;
