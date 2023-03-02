@@ -6,7 +6,7 @@
       <h2 class="amenities-title visually-hidden">Amenities</h2>
       <div class="general-wrap">
         <h2 class="amenities-general-title">GENERAL AMENITIES & FACILITIES:</h2>
-        <ul class="amenities-general-list list">
+        <ul class="amenities-general-list list marker">
           <li class="amenities-general-item">24-HOUR FRONT DESK SERVICE</li>
           <li class="amenities-general-item">DAILY HOUSEKEEPING</li>
           <li class="amenities-general-item">
@@ -24,7 +24,7 @@
       </div>
       <div class="bathroom-wrap">
         <h2 class="amenities-bathroom-title">BATHROOM:</h2>
-        <ul class="amenities-bathroom-list list">
+        <ul class="amenities-bathroom-list list marker">
           <li class="amenities-bathroom-item">PRIVATE BATHROOM WITH SHOWER</li>
           <li class="amenities-bathroom-item">COMPLIMENTARY TOILETRIES</li>
           <li class="amenities-bathroom-item">HAIR DRYER</li>
@@ -36,7 +36,7 @@
       </div>
       <div class="bedroom-wrap">
         <h2 class="amenities-bedroom-title">BEDROOM:</h2>
-        <ul class="amenities-bedroom-list list">
+        <ul class="amenities-bedroom-list list marker">
           <li class="amenities-bedroom-item">
             COMFORTABLE BEDS WITH HIGH-QUALITY LINENS
           </li>
@@ -53,7 +53,7 @@
       </div>
       <div class="kitchen-wrap">
         <h2 class="amenities-kitchen-title">KITCHEN:</h2>
-        <ul class="amenities-kitchen-list list">
+        <ul class="amenities-kitchen-list list marker">
           <li class="amenities-kitchen-item">
             IN-ROOM KITCHENETTE (IN SOME ROOM CATEGORIES)
           </li>
@@ -66,7 +66,7 @@
       </div>
       <div class="media-wrap">
         <h2 class="amenities-media-title">MEDIA:</h2>
-        <ul class="amenities-media-list list">
+        <ul class="amenities-media-list list marker">
           <li class="amenities-media-item">
             FLAT-SCREEN TV WITH CABLE CHANNELS
           </li>
@@ -80,52 +80,44 @@
       </div>
     </div>
     <div class="amenities-images">
-      <picture class="amenities-img-1">
-        <source
-          media="(min-width: 600px) and (max-width: 768px)"
-          srcset="
-          ./img/amenities/img-tablet-1-x1.jpg 1x,
-          ./img/amenities/img-tablet-1-x2.jpg 2x
-          "
-        />
-        <source
-          media="(min-width: 1200px)"
-          srcset="./img/amenities/img-desk-1-x1.jpg 1x, ./img/amenities/img-desk-1-x2.jpg 2x"
-        />
-        <img
-          src="./img/amenities/img-mobile-1-x1.jpg"
-          alt="img-room"
-          srcset="
-          ./img/amenities/img-mobile-1-x1.jpg 1x,
-          ./img/amenities/img-mobile-1-x2.jpg 2x
-          "
-          class="amenities-image-1"
-        />
-      </picture>
 
-      <picture class="amenities-img-2">
-        <source
-          media="(min-width: 600px) and (max-width: 768px)"
-          srcset="
-          ./img/amenities/img-tablet-2-x1.jpg 1x,
-          ./img/amenities/img-tablet-2-x2.jpg 2x
-          "
-        />
-        <source
-          media="(min-width: 1200px)"
-          srcset="./img/amenities/img-desk-2-x1.jpg 1x, ./img/amenities/img-desk-2-x2.jpg 2x"
-        />
-        <img
-          src="./img/amenities/img-mobile-2-x1.jpg"
-          alt="img-shelf"
-          srcset="
-          ./img/amenities/img-mobile-2-x1.jpg 1x,
-          ./img/amenities/img-mobile-2-x2.jpg 2x
-          "
-          class=""
-        />
-      </picture>
+    <picture class="amenities-img-1">
+      
+      <source
+        media="(min-width: 375px)"
+        srcset="./img/amenities/img-tablet-1-x1.jpg 1x, ./img/amenities/img-tablet-1-x2.jpg 2x,"
+      />
+      <source
+        media="(min-width: 1200px)"
+        srcset="./img/amenities/img-desk-1-x1.jpg 1x, ./img/amenities/img-desk-1-x2.jpg 2x,"
+      />
+      <img
+        src="./img/amenities/img-mobile-2-x1.jpg"
+        alt="img-shelf"
+        srcset="./img/amenities/img-mobile-1-x1.jpg 1x, ./img/amenities/img-mobile-1-x2.jpg 2x"
+        class="amenities-img-1"
+      />
+    </picture>
+
+
+    <picture class="amenities-img-2">
+      <source
+        media="(min-width: 375px)"
+        srcset="./img/amenities/img-tablet-2-x1.jpg 1x, ./img/amenities/img-tablet-2-x2.jpg 2x,"
+      />
+      <source
+        media="(min-width: 1200px)"
+        srcset="./img/amenities/img-desk-2-x1.jpg 1x, ./img/amenities/img-desk-2-x2.jpg 2x,"
+      />
+      <img
+        src="./img/amenities/img-mobile-2-x1.jpg"
+        alt="img-shelf"
+        srcset="./img/amenities/img-mobile-2-x1.jpg 1x, ./img/amenities/img-mobile-2-x2.jpg 2x"
+        class="amenities-img-2"
+      />
+    </picture>
+
     </div>
-    <button class="amenities-button">BOOK A ROOM</button>
+    <button class="amenities-button btn_light">BOOK A ROOM</button>
   </div>
 </section>
