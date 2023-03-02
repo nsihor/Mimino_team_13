@@ -17,6 +17,7 @@
 .four-seater-room-title {
   max-width: 318px;
   font-size: 32px;
+  line-height: 0.94;
   margin-bottom: 32px;
 }
 
@@ -25,6 +26,7 @@
   flex-direction: column;
   gap: 24px;
   font-size: 14px;
+  line-height: 1.29;
   text-transform: uppercase;
   margin-bottom: 36px;
 }
@@ -82,6 +84,8 @@
   .four-seater-room-title {
     max-width: 438px;
     max-height: 44px;
+    font-size: 40px;
+    line-height: 1.1;
   }
 
   .four-seater-room-text-wrap {
@@ -89,6 +93,8 @@
     flex-direction: row;
     gap: 32px;
     margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.33;
   }
 
   .four-seater-room-btns {
@@ -111,7 +117,7 @@
   .four-seater-room-pic-container {
     flex-direction: row;
     max-height: fit-content;
-    width: auto;
+    width: 1376px;
   }
 
   .four-seater-room-pic-wrap {

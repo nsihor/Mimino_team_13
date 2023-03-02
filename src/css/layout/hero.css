@@ -12,7 +12,7 @@
       rgba(0, 0, 0, 0) 70.73%,
       #121212 98.51%
     ),
-    url(../../img/main/hero/hero-img-dsktp-1x.jpg);
+    url(/img/main/hero/hero-img-dsktp-1x.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 335px 439px;
@@ -28,7 +28,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         #121212 98.51%
       ),
-      url(../../img/main/hero/hero-img-mob-2x.jpg);
+      url(/img/main/hero/hero-img-mob-2x.jpg);
   }
 }
 
@@ -91,7 +91,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         #121212 98.51%
       ),
-      url(../../img/main/hero/hero-img-tab-1x.jpg);
+      url(/img/main/hero/hero-img-tab-1x.jpg);
     background-size: 542px 710px;
     padding-top: 478px;
   }
@@ -105,7 +105,7 @@
           rgba(0, 0, 0, 0) 70.73%,
           #121212 98.51%
         ),
-        url(../../img/main/hero/hero-img-tab-2x.jpg);
+        url(/img/main/hero/hero-img-tab-2x.jpg);
     }
   }
   .hero-main-title {
@@ -139,7 +139,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         rgba(18, 18, 18, 0.8) 100%
       ),
-      url(../../img/main/hero/hero-img-dsktp-1x.jpg);
+      url(/img/main/hero/hero-img-dsktp-1x.jpg);
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-size: contain;
@@ -158,7 +158,7 @@
           rgba(0, 0, 0, 0) 70.73%,
           #121212 98.51%
         ),
-        url(../../img/main/hero/hero-img-dsktp-2x.jpg);
+        url(/img/main/hero/hero-img-dsktp-2x.jpg);
     }
   }
   .hero-main-title {
