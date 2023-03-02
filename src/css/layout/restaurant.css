@@ -1,8 +1,3 @@
-    @media screen and (max-width:374px) {
-      .section-main-restaurant {
-        display: none;
-      }      
-    }
     .section-main-restaurant{
     padding-top: 32px;
     }
