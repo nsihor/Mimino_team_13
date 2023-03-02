@@ -1,0 +1,306 @@
+.marker li {
+    display: list-item;
+    list-style: disc;
+  }
+  
+  .amenities-section {
+    background-color: #000000;
+    padding: 40px 20px 64px 20px;
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+  
+  .amenities-general-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  
+  .amenities-general-list {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 40px;
+  }
+  
+  .amenities-general-item {
+  }
+  .amenities-bathroom-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-bathroom-list {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-bathroom-item {
+  }
+  .amenities-bedroom-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-bedroom-list {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-bedroom-item {
+  }
+  .amenities-kitchen-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-kitchen-list {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-kitchen-item {
+  }
+  .amenities-media-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 28px;
+  }
+  .amenities-media-list {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    margin-bottom: 208px;
+  }
+  .amenities-media-item {
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    width: auto;
+  }
+  
+  .amenities-images {
+    display: block;
+    position: relative;
+  }
+  
+  .amenities-image-1 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 259px;
+  }
+  
+  .amenities-img-2 {
+    display: block;
+    position: relative;
+    margin-left: -20px;
+    width: 207px;
+    height: 103px;
+  }
+  
+  .amenities-button {
+    display: block;
+    border: 0.8px solid #f7f7f7;
+    border-radius: 32px;
+    background-color: transparent;
+    width: 175px;
+    height: 34px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 118px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .amenities-section {
+      padding-top: 80px;
+      padding-bottom: 64px;
+      padding: 80px 0;
+    }
+  
+    h2 {
+      margin: 0;
+      padding-left: 0;
+    }
+  
+    .list {
+      padding-left: 20px;
+      margin: 0;
+      /* list-style: none; */
+    }
+  
+    .amenities-general-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+  
+    .amenities-general-list {
+      font-size: 18px;
+      line-height: 1.33;
+      margin-bottom: 40px;
+    }
+  
+    .amenities-general-item {
+    }
+    .amenities-bathroom-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+    .amenities-bathroom-list {
+      font-size: 18px;
+      line-height: 1.33;
+      margin-bottom: 40px;
+    }
+    .amenities-bathroom-item {
+    }
+    .amenities-bedroom-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+    .amenities-bedroom-list {
+      font-size: 18px;
+      line-height: 1.33;
+      margin-bottom: 40px;
+    }
+    .amenities-bedroom-item {
+    }
+    .amenities-kitchen-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+    .amenities-kitchen-list {
+      font-size: 18px;
+      line-height: 1.33;
+      margin-bottom: 40px;
+    }
+    .amenities-kitchen-item {
+    }
+    .amenities-media-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+    .amenities-media-list {
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: -0.02em;
+      color: #f7f7f7;
+      margin-bottom: 122px;
+    }
+    .amenities-media-item {
+    }
+    .amenities-button {
+      margin: 0;
+      margin-top: 118px;
+      margin-bottom: 194px;
+    }
+  
+    .amenities-img-2 {
+      position: absolute;
+      top: 30%;
+      left: 38%;
+      transform: translate(-50%);
+      width: 365px;
+      height: auto;
+    }
+  
+    .amenities-img-1 img {
+      margin-left: 296px;
+      width: 408px;
+    }
+    .amenities-button {
+      margin: 0;
+      margin-top: -150px;
+      margin-bottom: 194px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+    .amenities-images {
+      position: relative;
+    }
+  
+    .amenities-text {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 70px;
+      row-gap: 100px;
+    }
+  
+    .amenities-text div {
+      display: inline-block;
+      flex-direction: row;
+      width: calc((100% - 70px) / 2);
+    }
+  
+    .amenities-img-2 {
+      min-width: 439px;
+      position: absolute;
+      left: 53%;
+      top: 60px;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+  
+    .amenities-img-1 {
+      display: block;
+      position: absolute;
+      top: 40px;
+      left: 58%;
+      margin: 0;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      min-width: 496px;
+    }
+    .amenities-button {
+      margin: 0;
+      margin-bottom: 235px;
+      margin-top: 260px;
+      margin-left: 525px;
+  
+    }
+  }
+  
