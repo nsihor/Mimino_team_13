@@ -238,19 +238,22 @@
     right: 0;
 }
 .content-hotel {
+    position: relative;
     left: 330px;
     right: 175px;
 }
 .about-complex-boy {
     display: flex;
+    position: relative;
     left: 99px;
-    right: 454px;
+    top: -320px;
 }
 .about-complex-4 {
     width: 266px;
     height: 309px; 
     left: 0;
     right: 470px;
+    top: -140px;
 }
 
 }
