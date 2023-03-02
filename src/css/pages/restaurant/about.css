@@ -1,0 +1,143 @@
+.section-kitchen {
+  padding-bottom: 64px;
+  background-color: var(--light);
+}
+
+.cooker-pic {
+  display: block;
+}
+
+.container-kitchen-small-pic {
+  display: flex;
+  column-gap: 20px;
+}
+
+.kitchen-small-pic {
+  flex-basis: calc((100% - 20px) / 2);
+}
+
+.kitchen-text-one,
+.kitchen-text-second {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  /*letter-spacing: -0.02em;*/
+  text-transform: uppercase;
+
+  color: var(--primery-text);
+}
+.italic {
+  font-style: italic;
+}
+/*---------------------до 767 рх----------------*/
+@media screen and (max-width: 767px) {
+  .container-kitchen-all-pic {
+    margin-bottom: 32px;
+  }
+
+  .kitchen-text-one {
+    margin-bottom: 24px;
+  }
+
+  .cooker-pic {
+    margin-bottom: 20px;
+  }
+
+  .btn-black-table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*---------------------/до 767 рх/----------------*/
+/*---------------------от 768 рх до 1439 px----------------*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container-kitchen-all-pic {
+    margin-bottom: 40px;
+  }
+
+  .container-kitchen-small-pic {
+    margin-right: 32px;
+  }
+} /*---------------------/от 768 рх до 1439 px/----------------*/
+/*-------------------------------TABLET----------------------------*/
+@media screen and (min-width: 768px) {
+  .section-kitchen {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .container-kitchen-all-pic {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .container-kitchen-small-pic {
+    flex-direction: column;
+    width: 284px;
+    row-gap: 16px;
+  }
+
+  .kitchen-text-both {
+    display: flex;
+    column-gap: 32px;
+  }
+
+  .kitchen-text-one,
+  .kitchen-text-second {
+    font-size: 18px;
+    line-height: 1.33;
+    flex-basis: ((100% - 32px) / 2);
+  }
+}
+/*--------------------------/TABLET/------------------------*/
+/*---------------------------DECKTOP------------------------*/
+@media screen and (min-width: 1440px) {
+  img {
+    max-width: none;
+  }
+
+  .section-kitchen {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .wrap-kitchen {
+    position: relative;
+  }
+
+  .kitchen-text-one,
+  .kitchen-text-second {
+    font-weight: 500;
+  }
+
+  .container-kitchen-all-pic {
+    flex-direction: row;
+  }
+
+  .container-kitchen-small-pic {
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 32px;
+  }
+
+  .cooker-pic {
+    margin-right: 32px;
+  }
+
+  .kitchen-text-both {
+    position: absolute;
+    right: -25px;
+    bottom: 33px;
+  }
+
+  .kitchen-text-one {
+    width: 334px;
+  }
+
+  .kitchen-text-second {
+    width: 453px;
+  }
+}
+/*---------------------------/DECKTOP/------------------------*/
