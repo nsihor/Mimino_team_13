@@ -95,14 +95,12 @@
     color: #f7f7f7;
     margin-bottom: 208px;
   }
-  .amenities-media-item {
-  }
   
-  img {
-    display: block;
-    height: auto;
-    width: auto;
-  }
+    img {
+      display: block;
+      height: auto;
+      width: auto;
+    }
   
   .amenities-images {
     display: block;
@@ -144,6 +142,15 @@
     cursor: pointer;
   }
   
+  @media screen and (max-width: 767px) {
+    .amenities-images {
+      display: none;
+    }
+    .amenities-media-list {
+      margin-bottom: 0;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     .amenities-section {
       padding-top: 80px;
