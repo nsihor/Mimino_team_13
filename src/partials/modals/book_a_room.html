@@ -1,0 +1,109 @@
+<section class="section-backdrop modal" data-modal="book-room">
+  <div class="modal-win">
+    <h2 class="modal-title">BOOK <span class="italic">A ROOM</span></h2>
+    <button
+      type="submit"
+      class="close-modal js-modal-close"
+      data-modal="book-room"
+    >
+      <svg class="modal-icon-close js-modal__close" width="32px" height="32px">
+        <use href="../../img/symbol-defs.svg#icon-x-1"></use>
+      </svg>
+    </button>
+    <form class="modal-form-table">
+      <span class="wrap-modal">
+        <label class="modal-label modal-label-name">
+          <span class="modal-wrap">
+            <input
+              placeholder="Your name"
+              type="text"
+              name="client-name"
+              class="modal-input"
+              pattern="[A-Za-zА-Яа-яЁё\s?]{2,20}"
+              autocomplete="off"
+            />
+            <span class="clue"
+              >Your name should be consist 2 to 20 characters</span
+            >
+          </span>
+          <span class="modal-label-text">Who should book a room for?</span>
+        </label>
+
+        <label class="modal-label modal-label-tel">
+          <span class="modal-wrap">
+            <input
+              placeholder="+ 38 ()"
+              type="tel"
+              name="client-tel"
+              class="modal-input"
+              pattern="\+38\s?[\(][0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+              autocomplete="off"
+              required
+            />
+            <span class="clue"
+              >Please enter a phone number in the following format
+              +38(ххх)ххх-хх-хх</span
+            >
+          </span>
+          <span class="modal-label-text">Phone number</span>
+        </label>
+
+        <label for="date-to-book" class="modal-label modal-label-book">
+          <svg class="modal-icon-fake" width="20px" height="10px">
+            <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+          </svg>
+          <span class="modal-wrap">
+            <select name="date-to-book" id="date-to-book" class="modal-input">
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+            </select>
+          </span>
+          <span class="modal-label-text">Check-in date</span>
+        </label>
+
+        <label for="date-check-out" class="modal-label modal-label-check-out">
+          <svg class="modal-icon-fake" width="20px" height="10px">
+            <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+          </svg>
+          <span class="modal-wrap">
+            <select
+              name="date-check-out"
+              id="date-check-out"
+              class="modal-input"
+            >
+              <option value="25/04/2023">25/04/2023</option>
+              <option value="26/04/2023">26/04/2023</option>
+              <option value="27/04/2023">27/04/2023</option>
+            </select>
+          </span>
+          <span class="modal-label-text">Check-out date</span>
+        </label>
+
+        <label for="number-category" class="modal-label modal-label-category">
+          <svg class="modal-icon-fake" width="20px" height="10px">
+            <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+          </svg>
+          <span class="modal-wrap">
+            <select
+              name="number-category"
+              id="number-category"
+              class="modal-input"
+            >
+              <option value="Double suite">Double suite</option>
+              <option value="Double suite">Double suite</option>
+              <option value="four-seater room">four-seater room</option>
+            </select>
+          </span>
+          <span class="modal-label-text">Number category</span>
+        </label>
+      </span>
+      <button
+        type="submit"
+        class="button-reserv btn_light js-modal-close"
+        data-modal="book-room"
+      >
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</section>
