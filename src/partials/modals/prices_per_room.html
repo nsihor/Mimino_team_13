@@ -1,0 +1,65 @@
+<section class="section-backdrop modal" data-modal="price-room">
+  <div class="modal-win">
+    <h2 class="modal-title">prices per <span class="italic">room</span></h2>
+    <button
+      type="submit"
+      class="close-modal js-modal-close"
+      data-modal="book-table"
+    >
+      <svg class="modal-icon-close js-modal_close" width="32px" height="32px">
+        <use href="../../img/symbol-defs.svg#icon-x-1"></use>
+      </svg>
+    </button>
+
+    <form class="modal-form-prices">
+      <span class="wrap-modal modal-wrap-night">
+        <span class="wrap-modal-number wrap-price-number">
+          <span class="modal-label-title-prices name-label-number"
+            >Double suite</span
+          >
+
+          <label
+            for="number-of-nights"
+            class="modal-label-prices modal-label-number"
+          >
+            <svg class="modal-icon-fake-number" width="20px" height="20px">
+              <use
+                class="modal-icon-fake"
+                href="../../img/symbol-defs.svg#icon-Icon-4-1"
+              ></use>
+            </svg>
+            <span class="arrow-cover"></span>
+
+            <select
+              name="number-of-nights"
+              id="number-of-nights"
+              class="modal-input modal-input-number"
+            >
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="more">more</option>
+            </select>
+          </label>
+          <span class="modal-label-text">Number of nights</span>
+        </span>
+
+        <span class="wrap-modal-prices wrap-price-number">
+          <label class="modal-label-prices modal-label-price">
+            <span class="modal-wrap-sum"></span>
+            <span class="modal-label-title-prices">1000</span>
+          </label>
+          <span class="modal-label-text">UAH</span>
+        </span>
+      </span>
+      <button
+        type="submit"
+        class="button-reserv btn_light js-modal-close"
+        data-modal="price-room"
+      >
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</section>
