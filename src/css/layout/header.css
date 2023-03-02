@@ -13,9 +13,16 @@
   position: relative;
 }
 .header-bg > .container {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -0%);
   padding-left: 20px;
   padding-right: 20px;
+  width: 100%;
 }
+
 .header-bg-other {
   background: #ffffff;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
@@ -184,8 +191,15 @@
   display: none;
 }
 
+@media screen and (min-width: 375px) {
+  .header-bg > .container {
+    max-width: 375px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header-bg > .container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     position: absolute;
@@ -255,6 +269,9 @@
 /* =====================FOR NOT MAIN PAGES============================== */
 
 @media screen and (min-width: 1440px) {
+  .header-bg > .container {
+    max-width: 1376px;
+  }
   .header-bg {
     background-color: transparent;
     /* position: relative; */
