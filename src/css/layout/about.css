@@ -205,7 +205,9 @@
 }
 .about-complex-girl {
     display: flex;
-    left: 402px;
+    position: relative;
+    top: -670px;
+    left: 370px;
     right: 154px;
 }
 .about-complex-1 {
@@ -217,8 +219,12 @@
 .about-complex-2 {
     width: 404px;
     height: 219px;
+    top: -440px;
     left: 300px;
     right: 0;
+}
+.about-complex-content {
+    padding-top: 32px;
 }
 .content-complex {
     padding-top: 32px;
