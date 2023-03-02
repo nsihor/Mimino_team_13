@@ -43,6 +43,7 @@
     .rest-hero-title,
     .room-hero-title {
         font-size: 40px;
+        font-weight: 400;
         line-height: 40px;
         letter-spacing: -0.02em;
         text-transform: uppercase;
@@ -234,6 +235,7 @@ screen and (max-width:767px) and(min-resolution:2) {
     .room-hero-title {
         font-size: 80px;
         line-height: 80px;
+        font-weight: 400;
     }
 
     .hero-buttons {
@@ -419,6 +421,7 @@ screen and (min-width:768px) and (min-resolution:2) {
     .rest-hero-title,
     .room-hero-title {
         font-size: 90px;
+        font-weight: 400;
         line-height: 90px;
     }
 
@@ -464,6 +467,6 @@ screen and (min-width:768px) and (min-resolution:2) {
     }
 
     .images-buttons {
-        bottom: -16px;
+        bottom: -90px;
     }
 }

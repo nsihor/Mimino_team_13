@@ -12,7 +12,6 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .section-backdrop.is-hidden .modal {
   transform: translateX(-50%) scale(0);
 }
@@ -107,7 +106,7 @@
   margin-bottom: 0;
   padding-bottom: 0px;
 }
-.modal-input {
+.modal-input-table {
   text-align: start;
   width: 100%;
 
@@ -133,11 +132,11 @@
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
 }
 
-.modal-input:invalid:not(:placeholder-shown) {
+.modal-input-table:invalid:not(:placeholder-shown) {
   color: tomato;
 }
 
-.modal-input:invalid:not(:placeholder-shown) + .clue {
+.modal-input-table:invalid:not(:placeholder-shown) + .clue {
   opacity: 1;
 }
 
@@ -154,7 +153,7 @@
   padding: 5px;
 }
 
-.modal-input::placeholder {
+.modal-input-table::placeholder {
   padding-bottom: 18px;
   font-family: 'DM Sans';
   font-style: normal;
