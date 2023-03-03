@@ -110,7 +110,6 @@
   text-align: start;
   width: 100%;
 
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -155,7 +154,6 @@
 
 .modal-input-table::placeholder {
   padding-bottom: 18px;
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -233,7 +231,6 @@
   padding-right: 49px;
   padding-left: 48px;
 
-  font-family: 'DM Sans';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
