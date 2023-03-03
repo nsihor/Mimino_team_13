@@ -4,7 +4,7 @@
   line-height: 36px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: 32px;
 }
 
 .welcome-title span {
@@ -45,12 +45,12 @@
   }
 
   .welcome-img {
-    width: 335px;
-    height: 432px;
+    /*width: 335px;
+    height: 432px;*/
     margin-top: 32px;
   }
 
-  .welcome-img::after {
+  /*.welcome-img::after {
     content: '';
     position: absolute;
 
@@ -58,15 +58,15 @@
     height: 432px;
 
     background-image: url(/img/welcome/welcome-mobile.jpg);
-  }
+  }*/
 }
-
+/*
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
   screen and (max-width: 767px) and (min-resolution: 2) {
   .welcome::after {
     background-image: url(/img/welcome/welcome-mobile-2x.jpg);
   }
-}
+}*/
 
 @media screen and (min-width: 768px) {
   .welcome-section {
@@ -105,7 +105,7 @@
     margin-top: 29px;
   }
 
-  .welcome-img::after {
+  /*.welcome-img::after {
     content: '';
     position: absolute;
 
@@ -113,7 +113,7 @@
     height: 599px;
 
     background-image: url(/img/welcome/welcome-tablet.jpg);
-  }
+  }*/
 }
 
 @media screen and (max-width: 1439px) and (min-device-pixel-ratio: 2),
@@ -122,8 +122,7 @@
     background-image: url(/img/welcome/welcome-tablet-2x.jpg);
   }
 }
-
-@media screen and (max-width: 1439px) {
+*/ @media screen and (max-width: 1439px) {
   .welcome-section {
     display: flex;
     flex-direction: column;
@@ -175,7 +174,7 @@
     margin-top: 0px;
   }
 
-  .welcome-img::after {
+  /*.welcome-img::after {
     content: '';
     position: absolute;
 
@@ -191,5 +190,5 @@
   .welcome::after {
     background-image: url(/img/welcome/welcome-2x.jpg);
     background-size: cover;
-  }
+  }*/
 }
