@@ -7,7 +7,7 @@
       data-modal="book-table"
     >
       <svg class="modal-icon-close js-modal__close" width="32px" height="32px">
-        <use href="../../img/symbol-defs.svg#icon-x-1"></use>
+        <use href="./img/symbol-defs.svg#icon-x-1"></use>
       </svg>
     </button>
     <form class="modal-form-table">
@@ -19,7 +19,7 @@
                 placeholder="Your name"
                 type="text"
                 name="client-name"
-                class="modal-input"
+                class="modal-input-table"
                 pattern="[A-Za-zА-Яа-яЁё\s?]{2,20}"
                 autocomplete="off"
               />
@@ -34,7 +34,7 @@
             <svg class="modal-icon-fake-number" width="20px" height="20px">
               <use
                 class="modal-icon-fake"
-                href="../../img/symbol-defs.svg#icon-Icon-4-1"
+                href="./img/symbol-defs.svg#icon-Icon-4-1"
               ></use>
             </svg>
             <span class="arrow-cover-number"></span>
@@ -43,7 +43,7 @@
             <select
               name="number-of-guests"
               id="number-of-guests"
-              class="modal-input modal-input-number"
+              class="modal-input-table modal-input-number"
             >
               <option selected disabled></option>
               <option value="1">1</option>
@@ -58,13 +58,13 @@
         <span class="wrap-modal-dat-tel">
           <label for="date-to-book" class="modal-label modal-label-book">
             <svg class="modal-icon-fake-tel" width="20px" height="10px">
-              <use href="../../img/symbol-defs.svg#icon-Icon-4-1"></use>
+              <use href="./img/symbol-defs.svg#icon-Icon-4-1"></use>
             </svg>
             <span class="arrow-cover-date"></span>
             <select
               name="date-to-book"
               id="date-to-book"
-              class="modal-input modal-input-tel"
+              class="modal-input-table modal-input-tel"
             >
               <option value="Today">Today</option>
               <option value="Tomorrow">Tomorrow</option>
@@ -79,10 +79,9 @@
                 placeholder="+ 38 ()"
                 type="tel"
                 name="client-tel"
-                class="modal-input"
+                class="modal-input-table"
                 pattern="\+38\s?[\(][0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
                 autocomplete="off"
-                required
               />
               <span class="clue"
                 >Please enter a phone number in the following format
