@@ -27,7 +27,7 @@
         }
 
     .multiple-res:not(:last-child){
-    margin-right: 25px;
+    margin-right: 10px;
     }
     .multiple-res{
     object-fit:cover;
