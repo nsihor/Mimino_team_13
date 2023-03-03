@@ -44,11 +44,16 @@ h2 {
   margin-left: 56px;
  }
 
- .amenities-img-2p {
+ .amenities-images {
+  position: relative;
+}
+
+ img.amenities-img-2 {
   width: 207px;
+  height:  fit-content;
   position: absolute;
-  top: 68.3%;
-  left: 18%;
+  top: 59%;
+  left: 8%;
   transform: translate(-50%, -50%);
 }
 
@@ -86,6 +91,7 @@ h2 {
   letter-spacing: -0.02em;
   color: #f7f7f7;
   margin-bottom: 40px;
+  margin-left: 5px;
 }
 
 .amenities-bathroom-title {
@@ -249,8 +255,8 @@ img {
 }
 img.amenities-img-2 {
     position: absolute;
-    top: -100px;
-    left: 50%;
+    top: 240px;
+    left: 17%;
     transform: translate(-50%, -50%);
     width: 365px;
     height: auto;
@@ -292,8 +298,8 @@ img.amenities-img-2 {
   img.amenities-img-2 {
     min-width: 439px;
     position: absolute;
-    left: 290%;
-    top: -120px;
+    left: 55.3%;
+    top: 315px;
     transform: translate(-50%, -50%);
     margin: 0;
   }
