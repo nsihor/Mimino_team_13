@@ -271,12 +271,26 @@
 @media screen and (min-width: 1440px) {
   .header-bg > .container {
     max-width: 1376px;
+    /* border-bottom: 0.5px solid rgba(247, 247, 247, 0.2); */
   }
   .header-bg {
     background-color: transparent;
     /* position: relative; */
   }
+  .header-bg::after {
+    content: '';
+    position: absolute;
+    top: 78px;
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: 0 auto;
+    width: 100%;
 
+    height: 4px;
+    border-radius: 2px;
+
+    border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  }
   .header-menu-button {
     display: none;
   }
