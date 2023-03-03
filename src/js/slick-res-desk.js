@@ -1,6 +1,8 @@
 $('.multiple-items').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 1500,
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 6,
