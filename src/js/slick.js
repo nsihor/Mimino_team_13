@@ -2,6 +2,9 @@ $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    infinite: true,
+    autoplaySpeed: 1500,
+    autoplay: true,
     centerMode: false,
     // fade: true,
     asNavFor: '.slider-nav'
