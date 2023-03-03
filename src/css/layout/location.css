@@ -1,132 +1,143 @@
 /* -----------------Location & contacts-------------- */
 
 .location {
-    padding: 64px 5px;
-    background: #f6f6f6;
+  padding: 64px 0;
+}
+
+.location-title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1, 0;
+  letter-spacing: -0.02em;
+}
+
+
+.location-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+.location-address-text {
+  max-width: 214px;
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.contacts-text {
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.contacts-list {
+  margin-top: 12px;
+}
+.contacts-item {
+}
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+
+@media screen and (max-width: 375px) {
+.container-wrap {
+padding: 0 15px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .location-address {
+    display: flex;
+    justify-content: space-between;
   }
-  
+
+  .location-address-text {
+    margin-top: 48px;
+  }
   .location-title {
-    margin: 0;
-    margin-bottom: 32px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1, 0;
-    letter-spacing: -0.02em;
-    color: #121212;
+    font-size: 68px;
+    margin-bottom: 40px;
   }
-  
-  img {
-    display: block;
-    height: 100%;
-    width: 100%;
+
+  .contacts-list.list {
+    padding-left: 0;
   }
-  
+
+  .contacts-text {
+    margin-top: 32px;
+    margin-bottom: 12px;
+
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .container-wrap {
+    display: flex;
+  }
+
+  .container-wrap .container-item:nth-of-type(1) {
+    order: 2;
+  }
+
+  .container-wrap .container-item:nth-of-type(3) {
+    order: 3;
+  }
+
+  .location {
+    padding: 64px 0;
+  }
+
   .location-map {
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+    margin: 0;
+    margin-right: 32px;
   }
-  
+
+  .location-title {
+    font-size: 68px;
+    margin: 0;
+    margin-left: 32px;
+  }
+
   .location-address-text {
     max-width: 214px;
-    margin-top: 32px;
+    margin-top: 0;
+    margin-left: -320px;
+    margin-top: 530px;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #000000;
   }
-  
-  .location-address {
-  }
+
   .contacts {
+    display: flex;
+    margin-top: 0;
+    margin-top: 528px;
+    margin-left: -35px;
   }
   .contacts-text {
-    margin-top: 28px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #121212;
+    margin: 0;
+    padding-top: 6px;
+    padding-right: 12px;
+    font-weight: 700;
   }
-  .contacts-list {
-    margin-top: 12px;
+
+  .contacts-list.list {
+    padding-left: 0;
   }
-  .contacts-item {
-  }
-  .contacts-link {
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #121212;
-  }
-  
-  
-  @media screen and (min-width: 768px) {
-  
-    .location-address {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .location-title {
-      font-size: 68px;
-      margin-bottom: 40px;
-    }
-  }
-  
-  @media screen and (min-width: 1400px) {
-  
-    .container-wrap {
-      display: flex;
-    }
-  
-    .container-wrap .container-item:nth-of-type(1) {
-      order: 2;
-    }
-  
-    .container-wrap .container-item:nth-of-type(3) {
-      order: 3;
-    }
-  
-    .location {
-      padding: 64px 0;
-    }
-  
-    .location-map {
-      display: block;
-      margin: 0;
-      margin-right: 32px;
-    }
-  
-    .location-title {
-      font-size: 68px;
-      margin: 0;
-    }
-  
-    .location-address-text {
-      max-width: 214px;
-      margin-top: 0;
-      margin-left: -320px;
-      margin-top: 550px;
-      font-size: 18px;
-      line-height: 1.33;
-      letter-spacing: -0.02em;
-      color: #000000;
-    }
-  
-    .contacts {
-      display: flex;
-      margin-top: 0;
-      margin-top: 530px;
-      margin-left: -35px;
-    }
-    .contacts-text {
-      margin: 0;
-      padding-top: 15px;
-      padding-right: 12px;
-    }
-  }
-  
+
+}
