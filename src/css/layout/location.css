@@ -26,7 +26,7 @@
 .location-address-text {
   max-width: 214px;
   margin-top: 32px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.33;
   letter-spacing: -0.02em;
   color: #000000;
@@ -117,7 +117,6 @@ padding: 0 15px;
     margin-top: 0;
     margin-left: -320px;
     margin-top: 530px;
-    font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #000000;
