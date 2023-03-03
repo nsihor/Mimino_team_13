@@ -223,6 +223,11 @@ max-width: 263px;
     .main-compl-bottom-2 {
         padding-right: 87px;
     }
+.wrap2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+}
 .fourth-one {
     position: relative;
 }
