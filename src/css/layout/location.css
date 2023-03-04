@@ -23,7 +23,7 @@
 }
 
 .adress {
-  max-width: 214px;
+  max-width: 300px;
   margin-top: 32px;
   font-size: 18px;
   line-height: 1.33;
@@ -108,13 +108,11 @@
   }
 
   .location-title {
-    font-size: 68px;
     margin: 0;
     margin-left: 32px;
   }
 
   .adress {
-    max-width: 214px;
     margin-left: -320px;
     margin-top: 530px;
   }
