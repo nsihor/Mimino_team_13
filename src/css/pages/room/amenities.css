@@ -31,19 +31,8 @@
 }
 .amenities-button {
     display: block;
-    border: 0.8px solid #f7f7f7;
-    border-radius: 32px;
-    background-color: transparent;
-    width: 175px;
-    height: 34px;
-    text-align: center;
     margin: 0 auto;
     margin-top: 32px;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #f7f7f7;
-    cursor: pointer;
   }
 
 .amenities-general-title {
@@ -223,7 +212,6 @@
     position: absolute;
     margin: 0;
     margin-top: -150px;
-    /* margin-bottom: 194px; */
   }
 }
 
