@@ -270,7 +270,7 @@
 
 @media screen and (min-width: 1440px) {
   .header-bg > .container {
-    max-width: 1376px;
+    max-width: 1440px;
     /* border-bottom: 0.5px solid rgba(247, 247, 247, 0.2); */
   }
   .header-bg {
