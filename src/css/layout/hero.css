@@ -61,8 +61,7 @@
   flex-wrap: wrap;
   gap: 32px;
 }
-.hero-main-text-item {
-}
+
 .hero-main-text {
   font-style: normal;
   font-weight: 400;
@@ -169,12 +168,19 @@
   .hero-main-container-wrap {
     display: flex;
     flex-wrap: nowrap;
-    gap: 270px;
+    gap: 275px;
+    padding-right: 62px;
   }
 
   .hero-main-text-list {
     flex-wrap: nowrap;
+    gap: 32px;
   }
+
+  .hero-main-text {
+    height: 72px;
+  }
+
   .hero-main-btn-list {
     margin-bottom: 0;
     order: 1;

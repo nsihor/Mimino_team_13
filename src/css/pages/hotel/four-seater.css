@@ -82,7 +82,7 @@
   }
 
   .four-seater-room-title {
-    max-width: 438px;
+    max-width: fit-content;
     max-height: 44px;
     font-size: 40px;
     line-height: 1.1;

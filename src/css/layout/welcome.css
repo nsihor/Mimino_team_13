@@ -122,7 +122,9 @@
     background-image: url(/img/welcome/welcome-tablet-2x.jpg);
   }
 }
+
 */ @media screen and (max-width: 1439px) {
+  
   .welcome-section {
     display: flex;
     flex-direction: column;
@@ -172,6 +174,11 @@
   .welcome-img {
     /*width: 676px;*/
     margin-top: 0px;
+    width: 672px;
+  }
+
+  .cooker-pic {
+    width: 672px;
   }
 
   /*.welcome-img::after {

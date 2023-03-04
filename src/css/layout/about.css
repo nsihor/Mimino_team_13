@@ -18,9 +18,7 @@
     position: relative;
     margin-top: 20px;
 }
-.complex-photo {
 
-}
 .first-review {
     position: absolute;
     top: -42px;
@@ -69,9 +67,7 @@
 .main-compl-bottom-2 {
     margin-bottom: 40px;
 }
-.main-compl-bottom-2 .text-part-complex {
 
-}
 .text-title-complex {
     text-transform: uppercase;
 }
@@ -164,9 +160,6 @@ max-width: 263px;
     flex-direction: column;
     }
 
-    .third-one {
-    }
-
     .main-compl-bottom-2 .text-part-complex {
     width: 263px;
     margin-bottom: 0px;
@@ -183,8 +176,7 @@ max-width: 263px;
     margin-right: auto;
     max-width: 266px;
     }
-    .fourth-one {
-    }
+    
 }
 @media screen and (min-width: 1440px) {
     .about-complex {
@@ -221,7 +213,7 @@ max-width: 263px;
     gap: 54px;
 }
     .main-compl-bottom-2 {
-        padding-right: 87px;
+        padding-right: 82px;
     }
 .wrap2 {
     font-weight: 500;

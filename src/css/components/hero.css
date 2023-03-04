@@ -221,10 +221,7 @@ screen and (max-width:767px) and(min-resolution:2) {
 }
 
 @media screen and (min-width:768px) {
-    .hero {
-        /* padding-left: 36px; */
-    }
-
+    
     .hero-nav {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -436,13 +433,9 @@ screen and (min-width:768px) and (min-resolution:2) {
 
     .hero-descr {
         position: absolute;
-        top: 572px;
+        top: 410px;
         /* left: 32px;
         bottom: 15px; */
-    }
-
-    .descr {
-        /* top: 572px; */
     }
 
     .room-images {
@@ -468,5 +461,6 @@ screen and (min-width:768px) and (min-resolution:2) {
 
     .images-buttons {
         bottom: -90px;
+        margin-right: 567px;
     }
 }
